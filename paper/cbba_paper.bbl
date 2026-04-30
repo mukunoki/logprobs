@@ -1,0 +1,129 @@
+\begin{thebibliography}{10}
+
+\bibitem{chen2021codex}
+Chen, M., Tworek, J., Jun, H., Yuan, Q., Pinto, H. P. d.~O., Kaplan, J.,
+  Edwards, H., Burda, Y., Joseph, N., Brockman, G. et al.: Evaluating Large
+  Language Models Trained on Code, Technical Report arXiv:2107.03374, OpenAI
+  (2021).
+
+\bibitem{li2022alphacode}
+Li, Y., Choi, D., Chung, J., Kushman, N., Schrittwieser, J., Leblond, R.,
+  Eccles, T., Keeling, J., Gimeno, F., Dal~Lago, A., Hubert, T., Choy, P., de
+  Masson~d'Autume, C., Babuschkin, I., Chen, X., Huang, P.-S., Welbl, J.,
+  Gowal, S., Cherepanov, A., Molloy, J., Mankowitz, D.~J., Sutherland~Robson,
+  E., Kohli, P., de Freitas, N., Kavukcuoglu, K. and Vinyals, O.:
+  Competition-level code generation with {AlphaCode}, {\em Science},  Vol.~378,
+  No.~6624, pp.\ 1092--1097 (online), \doi{10.1126/science.abq1158} (2022).
+
+\bibitem{semantic_entropy2024}
+Farquhar, S., Kossen, J., Kuhn, L. and Gal, Y.: Detecting hallucinations in
+  large language models using semantic entropy, {\em Nature},  Vol.~630,
+  No.~8017, pp.\ 625--630 (online), \doi{10.1038/s41586-024-07421-0} (2024).
+
+\bibitem{code_semantic_entropy2026}
+Zhang, H., Cheng, W. and Hu, W.: Self-Improving Code Generation via Semantic
+  Entropy and Behavioral Consensus, Technical Report arXiv:2603.29292, arXiv
+  (2026).
+
+\bibitem{tokur2025}
+Zhang, T., Shi, H., Wang, Y., Wang, H., He, X., Li, Z., Chen, H., Han, L., Xu,
+  K., Zhang, H., Metaxas, D. and Wang, H.: {TokUR}: Token-Level Uncertainty
+  Estimation for Large Language Model Reasoning, {\em Proc. 14th International
+  Conference on Learning Representations (ICLR)}, (online),
+  \urle{https://openreview.net/forum?id=VHQc7wzmYv} (2026).
+
+\bibitem{token_uq_training2025}
+Liu, T., Benjamin, A.~S. and Zador, A.~M.: Token-Level Uncertainty-Aware
+  Objective for Language Model Post-Training, Technical Report
+  arXiv:2503.16511, arXiv (2025).
+
+\bibitem{uscd2024}
+Wang, S., Ding, L., Shen, L., Luo, Y., He, Z., Yu, W. and Tao, D.: {USCD}:
+  Improving Code Generation of {LLMs} by Uncertainty-Aware Selective
+  Contrastive Decoding, Technical Report arXiv:2409.05923, arXiv (2024).
+
+\bibitem{assess_correctness2025}
+Sharma, A. and David, C.: Assessing Correctness in {LLM}-Based Code Generation
+  via Uncertainty Estimation, Technical Report arXiv:2502.11620, arXiv (2025).
+
+\bibitem{adadec2025}
+He, K., Liu, M., Wang, C., Li, Z., Wang, Y., Peng, X. and Zheng, Z.: Towards
+  Better Code Generation: Adaptive Decoding with Uncertainty Guidance,
+  Technical Report arXiv:2506.08980, arXiv (2025).
+
+\bibitem{adapt2023}
+Zhu, Y., Li, J., Li, G., Zhao, Y., Li, J., Jin, Z. and Mei, H.: Hot or Cold?
+  Adaptive Temperature Sampling for Code Generation with Large Language Models,
+  {\em Proc. AAAI Conference on Artificial Intelligence (AAAI)}, (online),
+  \urle{https://arxiv.org/abs/2309.02772} (2024).
+
+\bibitem{edt2024}
+Zhang, S., Bao, Y. and Huang, S.: {EDT}: Improving Large Language Models'
+  Generation by Entropy-based Dynamic Temperature Sampling, Technical Report
+  arXiv:2403.14541, arXiv (2024).
+
+\bibitem{semantic_uncertainty_decoding2025}
+Foodeei, D., Fan, S. and Jaggi, M.: Semantic uncertainty in advanced decoding
+  methods for {LLM} generation, Technical Report arXiv:2506.17296, arXiv
+  (2025).
+
+\bibitem{wang2023selfconsistency}
+Wang, X., Wei, J., Schuurmans, D., Le, Q.~V., Chi, E.~H., Narang, S.,
+  Chowdhery, A. and Zhou, D.: Self-Consistency Improves Chain of Thought
+  Reasoning in Language Models, {\em Proc. 11th International Conference on
+  Learning Representations (ICLR)}, (online),
+  \urle{https://openreview.net/forum?id=1PL1NIMMrw} (2023).
+
+\bibitem{chen2022codet}
+Chen, B., Zhang, F., Nguyen, A., Zan, D., Lin, Z., Lou, J.-G. and Chen, W.:
+  {CodeT}: Code Generation with Generated Tests, {\em Proc. 11th International
+  Conference on Learning Representations (ICLR)}, (online),
+  \urle{https://openreview.net/forum?id=ktrw68Cmu9c} (2023).
+
+\bibitem{le2022coderl}
+Le, H., Wang, Y., Gotmare, A.~D., Savarese, S. and Hoi, S. C.~H.: {CodeRL}:
+  Mastering Code Generation through Pretrained Models and Deep Reinforcement
+  Learning, {\em Advances in Neural Information Processing Systems 35
+  ({NeurIPS})}, (online), \urle{https://arxiv.org/abs/2207.01780} (2022).
+
+\bibitem{madaan2023selfrefine}
+Madaan, A., Tandon, N., Gupta, P., Hallinan, S., Gao, L., Wiegreffe, S., Alon,
+  U., Dziri, N., Prabhumoye, S., Yang, Y., Gupta, S., Majumder, B.~P., Hermann,
+  K., Welleck, S., Yazdanbakhsh, A. and Clark, P.: Self-Refine: Iterative
+  Refinement with Self-Feedback, {\em Advances in Neural Information Processing
+  Systems 36 ({NeurIPS})}, (online), \urle{https://arxiv.org/abs/2303.17651}
+  (2023).
+
+\bibitem{uncert_cot2025}
+Zhu, Y., Li, G., Jiang, X., Li, J., Mei, H., Jin, Z. and Dong, Y.:
+  Uncertainty-Guided Chain-of-Thought for Code Generation with {LLMs},
+  Technical Report arXiv:2503.15341, arXiv (2025).
+
+\bibitem{kadavath2022language}
+Kadavath, S., Conerly, T., Askell, A., Henighan, T., Drain, D., Perez, E.,
+  Schiefer, N., Hatfield-Dodds, Z., DasSarma, N., Tran-Johnson, E. et al.:
+  Language Models (Mostly) Know What They Know, Technical Report
+  arXiv:2207.05221, arXiv (2022).
+
+\bibitem{xiong2023can}
+Xiong, M., Hu, Z., Lu, X., Li, Y., Fu, J., He, J. and Hooi, B.: Can {LLMs}
+  Express Their Uncertainty? An Empirical Evaluation of Confidence Elicitation
+  in {LLMs}, {\em Proc. 12th International Conference on Learning
+  Representations (ICLR)}, (online),
+  \urle{https://openreview.net/forum?id=gjeQKFxFpZ} (2024).
+
+\bibitem{spuq2024}
+Gao, X., Zhang, J., Mouatadid, L. and Das, K.: {SPUQ}: Perturbation-Based
+  Uncertainty Quantification for Large Language Models, {\em Proc. 18th
+  Conference of the European Chapter of the Association for Computational
+  Linguistics (Volume 1: Long Papers)}, pp.\ 2336--2346 (online),
+  \doi{10.18653/v1/2024.eacl-long.143} (2024).
+
+\bibitem{kwon2023vllm}
+Kwon, W., Li, Z., Zhuang, S., Sheng, Y., Zheng, L., Yu, C.~H., Gonzalez, J.~E.,
+  Zhang, H. and Stoica, I.: Efficient Memory Management for Large Language
+  Model Serving with {PagedAttention}, {\em Proc. 29th Symposium on Operating
+  Systems Principles (SOSP)}, pp.\ 611--626 (online),
+  \urle{https://arxiv.org/abs/2309.06180} (2023).
+
+\end{thebibliography}
