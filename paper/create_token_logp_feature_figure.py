@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Create a 20-panel feature-space figure for MeanLogP and TailLogP."""
+"""Create a representative feature-space figure for MeanLogP and TailLogP."""
 
 from __future__ import annotations
 
@@ -15,10 +15,10 @@ PAPER_DIR = Path(__file__).resolve().parent
 REPO_ROOT = PAPER_DIR.parent
 RESULT_DIR = (
     REPO_ROOT
-    / "results/selected20_9b_k10_qwen35_9b_awq4_20260430_172159_50trials_w5_mt4096"
+    / "results/selected20_9b_k10_by_problem_qwen35_9b_awq4_20260430_222029_100trials_w5_mt4096"
 )
 BY_PROBLEM_DIR = RESULT_DIR / "by_problem"
-ANALYSIS_PATH = RESULT_DIR / "selected20_9b_k10_method_analysis.json"
+ANALYSIS_PATH = RESULT_DIR / "selected20_9b_k10_by_problem_method_analysis.json"
 OUT_PATH = PAPER_DIR / "token_logp_feature_space.png"
 
 PROBLEM_LABELS = {
@@ -44,6 +44,13 @@ PROBLEM_LABELS = {
     "utf8_validate_strict": "UTF-8\nValidate",
 }
 
+SELECTED_PROBLEMS = [
+    "pareval_sort_ignore_zero_i32",
+    "stencil3d_mixed_7pt",
+    "crop2d_strided_u8",
+    "floyd_warshall_blocked",
+]
+
 
 plt.rcParams.update({
     "font.family": "sans-serif",
@@ -62,15 +69,15 @@ def safe_name(name: str) -> str:
     return "".join(ch if ch.isalnum() or ch in "._-" else "_" for ch in name)
 
 
-def load_analysis_order() -> list[tuple[str, float]]:
+def load_tail_gains() -> dict[str, float]:
     with open(ANALYSIS_PATH, encoding="utf-8") as f:
         analysis = json.load(f)
-    rows = []
+    gains = {}
     for problem, item in analysis.items():
         gen = float(item["methods"]["Gen"]["avg_tests"])
         tail = float(item["methods"]["Tail"]["avg_tests"])
-        rows.append((problem, gen - tail))
-    return sorted(rows, key=lambda row: row[1], reverse=True)
+        gains[problem] = gen - tail
+    return gains
 
 
 def percentile(values: list[float], q: float) -> float:
@@ -119,12 +126,13 @@ def write_xbb(output_path: Path, fig) -> None:
 
 
 def main() -> None:
-    ordered = load_analysis_order()
-    fig, axes = plt.subplots(5, 4, figsize=(7.15, 8.25), sharex=True, sharey=True)
+    tail_gains = load_tail_gains()
+    fig, axes = plt.subplots(2, 2, figsize=(3.45, 3.35), sharex=True, sharey=True)
     methods_xlim = (0.50, 1.005)
     methods_ylim = (0.40, 1.005)
 
-    for ax, (problem, tail_gain) in zip(axes.ravel(), ordered):
+    for ax, problem in zip(axes.ravel(), SELECTED_PROBLEMS):
+        tail_gain = tail_gains[problem]
         mean_scores: list[float] = []
         tail_scores: list[float] = []
         labels: list[bool] = []
@@ -142,20 +150,20 @@ def main() -> None:
         ax.scatter(
             x[~pass_idx],
             y[~pass_idx],
-            s=10,
+            s=8,
             marker="x",
             color="#cb181d",
-            linewidths=0.65,
+            linewidths=0.55,
             label="Fail",
         )
         ax.scatter(
             x[pass_idx],
             y[pass_idx],
-            s=10,
+            s=8,
             marker="o",
             facecolors="none",
             edgecolors="#238b45",
-            linewidths=0.65,
+            linewidths=0.55,
             label="Pass",
         )
         ax.set_xlim(*methods_xlim)
@@ -170,31 +178,23 @@ def main() -> None:
         tail_text = "nan" if tail_auc is None else f"{tail_auc:.2f}"
         ax.set_title(
             f"{PROBLEM_LABELS.get(problem, problem[:8])}\nAUC {mean_text}/{tail_text}, $\\Delta_T$={tail_gain:+.2f}",
-            fontsize=5.7,
+            fontsize=5.4,
             pad=3,
         )
 
-    for row in range(5):
+    for row in range(2):
         axes[row, 0].set_ylabel("TailLogP")
     for ax in axes[-1, :]:
         ax.set_xlabel("MeanLogP")
 
     handles = [
         plt.Line2D([0], [0], marker="o", linestyle="none", markerfacecolor="none",
-                   markeredgecolor="#238b45", markersize=5, label="Pass"),
+                   markeredgecolor="#238b45", markersize=4, label="Pass"),
         plt.Line2D([0], [0], marker="x", linestyle="none", color="#cb181d",
-                   markersize=5, label="Fail"),
+                   markersize=4, label="Fail"),
     ]
-    fig.legend(handles=handles, loc="lower center", ncol=2, frameon=False, bbox_to_anchor=(0.5, 0.01))
-    fig.text(
-        0.995,
-        0.018,
-        "20 benchmarks, panels sorted by Tail gain",
-        ha="right",
-        va="bottom",
-        fontsize=6.5,
-    )
-    fig.tight_layout(rect=(0.04, 0.055, 0.995, 0.995), h_pad=1.15, w_pad=0.85)
+    fig.legend(handles=handles, loc="lower center", ncol=2, frameon=False, bbox_to_anchor=(0.5, 0.005))
+    fig.tight_layout(rect=(0.02, 0.07, 0.995, 0.995), h_pad=1.05, w_pad=0.45)
 
     fig.savefig(OUT_PATH, dpi=300)
     fig.savefig(OUT_PATH.with_suffix(".eps"), format="eps")

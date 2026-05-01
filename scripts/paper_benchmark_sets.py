@@ -189,6 +189,13 @@ PAPER_SENSITIVITY2_PROBLEMS = (
     + select_named_problems(PAPER_GENERAL_HARD_PROBLEMS, ["utf8_validate_strict"])
 )
 
+PAPER_SENSITIVITY4_PROBLEMS = (
+    select_named_problems(PAPER_PAREVAL_PROBLEMS, ["pareval_sort_ignore_zero_i32"])
+    + select_named_problems(PAPER_SOURCE_NUMERICAL_PROBLEMS, ["stencil3d_mixed_7pt"])
+    + select_named_problems(PAPER_TAILCASE_PROBLEMS, ["crop2d_strided_u8"])
+    + select_named_problems(PAPER_SOURCE_SYSTEM_PROBLEMS, ["floyd_warshall_blocked"])
+)
+
 PAPER_SELECTED12_PROBLEMS = (
     select_named_problems(
         PAPER_TAILCASE_PROBLEMS,
@@ -231,6 +238,7 @@ BENCHMARKS = {
     "paper_smallmodel_k10_pilot3": PAPER_SMALLMODEL_K10_PILOT3_PROBLEMS,
     "paper_smallmodel_pilot5": PAPER_SMALLMODEL_PILOT5_PROBLEMS,
     "paper_sensitivity2": PAPER_SENSITIVITY2_PROBLEMS,
+    "paper_sensitivity4": PAPER_SENSITIVITY4_PROBLEMS,
     "paper_selected12": PAPER_SELECTED12_PROBLEMS,
     "paper12": PAPER12_PROBLEMS,
 }

@@ -16,12 +16,10 @@ PAPER_DIR = Path(__file__).resolve().parent
 REPO_ROOT = PAPER_DIR.parent
 RESULT_DIR = (
     REPO_ROOT
-    / "results/selected20_9b_k10_qwen35_9b_awq4_20260430_172159_50trials_w5_mt4096"
+    / "results/selected20_9b_k10_by_problem_qwen35_9b_awq4_20260430_222029_100trials_w5_mt4096"
 )
 BY_PROBLEM_DIR = RESULT_DIR / "by_problem"
 HIGH_CONF_THRESHOLD = 0.75
-XMEAN_LOSS_THRESHOLD = 6.0
-XMEAN_LAMBDA = 100.0
 
 
 CASES = [
@@ -32,41 +30,41 @@ CASES = [
             "pareval_sort_ignore_zero_i32",
             "utf8_validate_strict",
             "pareval_largest_component_i32",
-            "crop2d_strided_u8",
             "csr_spmv_axpy_dot",
+            "transpose_strided_f64",
         ],
     ),
     (
-        "Extreme-Tail Sensitive",
-        "extreme_tail_sensitive",
+        "Tail-Sensitive",
+        "tail_sensitive",
         [
-            "conv2d_3x3_multi_channel",
-            "matrix_transpose_cache",
-            "radix_sort_u32_pairs",
-            "rmsnorm_mixed",
-            "heap_sort_implementation",
-        ],
-    ),
-    (
-        "Sparse-Success / Limited Signal",
-        "sparse_success_limited_signal",
-        [
-            "banded_edit_distance_i32",
             "pareval_convex_hull_perimeter_f64",
             "topk_ignore_nan_f32",
             "stencil3d_mixed_7pt",
             "stencil2d_halo5",
+            "cholesky_spd_f64",
         ],
     ),
     (
-        "LogP-Misleading / No-Gain",
-        "logp_misleading_no_gain",
+        "Weak-Signal",
+        "weak_signal",
         [
-            "floyd_warshall_blocked",
-            "transpose_strided_f64",
-            "lower_tri_solve_strided_f64",
+            "crop2d_strided_u8",
+            "matrix_transpose_cache",
+            "rmsnorm_mixed",
+            "heap_sort_implementation",
             "quadratic_roots_stable_f64",
-            "cholesky_spd_f64",
+        ],
+    ),
+    (
+        "Unreliable-Signal",
+        "unreliable_signal",
+        [
+            "conv2d_3x3_multi_channel",
+            "radix_sort_u32_pairs",
+            "floyd_warshall_blocked",
+            "lower_tri_solve_strided_f64",
+            "banded_edit_distance_i32",
         ],
     ),
 ]
@@ -96,7 +94,7 @@ PROBLEM_LABELS = {
 }
 
 
-METHODS = ["Gen", "Mean", "Tail", "XMean"]
+METHODS = ["Gen", "Mean", "Tail", "MinLogP"]
 COLORS = ["#f39c12", "#27ae60", "#8e44ad", "#2c7fb8"]
 
 
@@ -134,13 +132,11 @@ def tail_score(candidate: dict) -> float:
     return float(np.quantile(vals, 0.25))
 
 
-def xmean_score(candidate: dict) -> float:
+def min_logp_score(candidate: dict) -> float:
     vals = valid_logprobs(candidate)
     if len(vals) == 0:
         return float("-inf")
-    mean_logp = float(vals.mean())
-    extreme_rate = float(np.mean((-vals) >= XMEAN_LOSS_THRESHOLD))
-    return mean_logp - XMEAN_LAMBDA * extreme_rate
+    return float(np.min(vals))
 
 
 def method_order(candidates: list[dict], method: str) -> list[int]:
@@ -150,8 +146,8 @@ def method_order(candidates: list[dict], method: str) -> list[int]:
         return sorted(range(len(candidates)), key=lambda i: (-float(candidates[i]["confidence"]), i))
     if method == "Tail":
         return sorted(range(len(candidates)), key=lambda i: (-tail_score(candidates[i]), i))
-    if method == "XMean":
-        return sorted(range(len(candidates)), key=lambda i: (-xmean_score(candidates[i]), i))
+    if method == "MinLogP":
+        return sorted(range(len(candidates)), key=lambda i: (-min_logp_score(candidates[i]), i))
     raise ValueError(method)
 
 
@@ -191,6 +187,33 @@ def draw_boxplot(ax, series_list: list[list[float]]) -> None:
         mean_marker.set_markeredgecolor("white")
 
 
+def visible_box_ylim(series_list: list[list[float]]) -> tuple[float, float]:
+    visible_values: list[float] = []
+    for series in series_list:
+        values = np.array(series, dtype=float)
+        if len(values) == 0:
+            continue
+        q1, q3 = np.percentile(values, [25, 75])
+        iqr = q3 - q1
+        lower_bound = q1 - 1.5 * iqr
+        upper_bound = q3 + 1.5 * iqr
+        whisker_values = values[(values >= lower_bound) & (values <= upper_bound)]
+        if len(whisker_values) == 0:
+            whisker_values = values
+        visible_values.extend([
+            float(np.min(whisker_values)),
+            float(np.max(whisker_values)),
+            float(np.mean(values)),
+        ])
+    if not visible_values:
+        return 0.5, 1.5
+    ymin = max(0.5, math.floor((min(visible_values) - 0.2) * 2) / 2)
+    ymax = math.ceil((max(visible_values) + 0.25) * 2) / 2
+    if ymax <= ymin:
+        ymax = ymin + 0.5
+    return ymin, ymax
+
+
 def write_xbb(output_path: Path, fig) -> None:
     width = fig.get_figwidth() * 72
     height = fig.get_figheight() * 72
@@ -209,6 +232,7 @@ def write_xbb(output_path: Path, fig) -> None:
 def plot_case(case_name: str, slug: str, problems: list[str]) -> None:
     datasets = {problem: load_problem(problem) for problem in problems}
     output_path = PAPER_DIR / f"cbba_case_{slug}.png"
+    vertical_gap = 0.52 if slug == "logp_separable" else 0.25
 
     fig = plt.figure(figsize=(7.15, 3.55))
     gs_main = GridSpec(
@@ -216,7 +240,7 @@ def plot_case(case_name: str, slug: str, problems: list[str]) -> None:
         1,
         figure=fig,
         height_ratios=[1.0, 1.12],
-        hspace=0.52,
+        hspace=vertical_gap,
         left=0.065,
         right=0.992,
         bottom=0.16,
@@ -286,7 +310,7 @@ def plot_case(case_name: str, slug: str, problems: list[str]) -> None:
             linespacing=0.95,
         )
         if col == 0:
-            ax.set_ylabel("Count", fontsize=7)
+            ax.set_ylabel("Candidates", fontsize=7)
         ax.grid(axis="y", linestyle=":", linewidth=0.5)
         ax.tick_params(labelsize=5.7, pad=1)
 
@@ -295,12 +319,7 @@ def plot_case(case_name: str, slug: str, problems: list[str]) -> None:
         distributions = collect_tests(datasets[problem])
         series = [distributions[method] for method in METHODS]
         draw_boxplot(ax, series)
-        values = [v for s in series for v in s]
-        ymin = max(0.5, math.floor((min(values) - 0.2) * 2) / 2)
-        ymax = math.ceil((max(values) + 0.25) * 2) / 2
-        if ymax <= ymin:
-            ymax = ymin + 0.5
-        ax.set_ylim(ymin, ymax)
+        ax.set_ylim(*visible_box_ylim(series))
         ax.set_xticks(np.arange(len(METHODS)))
         ax.set_xticklabels(METHODS, fontsize=5.7, rotation=32, ha="right")
         if col == 0:
