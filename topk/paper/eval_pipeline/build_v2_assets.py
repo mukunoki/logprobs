@@ -248,25 +248,29 @@ def build_struct_bar(
     fig, ax = plt.subplots(figsize=(6.2, 3.6))
     y = np.arange(len(tags))
     bar_h = 0.4
+    # Two distinct color families: Δdet@1 is blue (the headline metric), Δdet@16 is orange (the convergent metric).
+    # Solid for positive, light hatched for negative — printable without relying on alpha.
     bars1 = ax.barh(y - bar_h/2, d1, height=bar_h,
-                    color=["tab:green" if v > 0.005 else "tab:red" if v < -0.005 else "tab:gray" for v in d1],
-                    edgecolor="white", label=r"$\Delta$det@1")
+                    color="#1f77b4",
+                    edgecolor="black", linewidth=0.4,
+                    label=r"$\Delta$det@1")
     bars16 = ax.barh(y + bar_h/2, d16, height=bar_h,
-                     color=["#2ca02c" if v > 0.005 else "#d62728" if v < -0.005 else "#7f7f7f" for v in d16],
-                     edgecolor="white", alpha=0.6, label=r"$\Delta$det@16")
+                     color="#ff7f0e",
+                     edgecolor="black", linewidth=0.4,
+                     label=r"$\Delta$det@16")
     ax.set_yticks(y)
     ax.set_yticklabels([f"{t} (n={c:,})" for t, c in zip(tags, ns)])
     ax.invert_yaxis()
     ax.axvline(0, color="black", linewidth=0.6)
-    ax.set_xlabel("Hybrid-UGT − Random (det@k difference)")
-    ax.set_title("Hybrid-UGT advantage by structural tag (B-plan, 6,377)")
+    ax.set_xlabel(r"Hybrid-UGT $-$ Random (det@$k$ difference)")
+    ax.set_title(f"Hybrid-UGT advantage by structural tag (n={len(rows)//5:,} candidates)")
     ax.grid(axis="x", linestyle=":", linewidth=0.5, alpha=0.6)
     for i, (v1, v16) in enumerate(zip(d1, d16)):
         for d, off in ((v1, -bar_h/2), (v16, bar_h/2)):
             x = d + (0.004 if d >= 0 else -0.004)
             ha = "left" if d >= 0 else "right"
             ax.text(x, i + off, f"{d:+.3f}", va="center", ha=ha, fontsize=6)
-    ax.legend(loc="lower right", fontsize=7, frameon=False)
+    ax.legend(loc="lower right", fontsize=7, frameon=True, framealpha=1.0)
     fig.tight_layout()
     fig.savefig(str(out_stem) + ".png", dpi=300)
     fig.savefig(str(out_stem) + ".eps", format="eps")
