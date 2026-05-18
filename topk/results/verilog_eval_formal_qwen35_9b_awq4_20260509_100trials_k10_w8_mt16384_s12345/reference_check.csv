@@ -1,0 +1,1191 @@
+problem,compile_ok,success,mismatches,samples,compile_rc,run_rc,log_tail
+Prob001_zero,True,True,0,20,0,0,"/home/mukunoki/bot/pocketnika2/work/topk/results/verilog_eval_formal_qwen35_9b_awq4_20260509_100trials_k10_w8_mt16384_s12345/eval_work/reference/Prob001_zero/test.sv:30: $finish called at 102 (1ps)
+Hint: Output 'zero' has no mismatches.
+Hint: Total mismatched samples is 0 out of 20 samples
+
+Simulation finished at 102 ps
+Mismatches: 0 in 20 samples
+"
+Prob002_m2014_q4i,True,True,0,100,0,0,"/home/mukunoki/bot/pocketnika2/work/topk/results/verilog_eval_formal_qwen35_9b_awq4_20260509_100trials_k10_w8_mt16384_s12345/eval_work/reference/Prob002_m2014_q4i/test.sv:14: $finish called at 501 (1ps)
+Hint: Output 'out' has no mismatches.
+Hint: Total mismatched samples is 0 out of 100 samples
+
+Simulation finished at 501 ps
+Mismatches: 0 in 100 samples
+"
+Prob003_step_one,True,True,0,20,0,0,"/home/mukunoki/bot/pocketnika2/work/topk/results/verilog_eval_formal_qwen35_9b_awq4_20260509_100trials_k10_w8_mt16384_s12345/eval_work/reference/Prob003_step_one/test.sv:30: $finish called at 102 (1ps)
+Hint: Output 'one' has no mismatches.
+Hint: Total mismatched samples is 0 out of 20 samples
+
+Simulation finished at 102 ps
+Mismatches: 0 in 20 samples
+"
+Prob004_vector2,True,True,0,110,0,0,"/home/mukunoki/bot/pocketnika2/work/topk/results/verilog_eval_formal_qwen35_9b_awq4_20260509_100trials_k10_w8_mt16384_s12345/eval_work/reference/Prob004_vector2/test.sv:33: $finish called at 550 (1ps)
+Hint: Output 'out' has no mismatches.
+Hint: Total mismatched samples is 0 out of 110 samples
+
+Simulation finished at 550 ps
+Mismatches: 0 in 110 samples
+"
+Prob005_notgate,True,True,0,239,0,0,"/home/mukunoki/bot/pocketnika2/work/topk/results/verilog_eval_formal_qwen35_9b_awq4_20260509_100trials_k10_w8_mt16384_s12345/eval_work/reference/Prob005_notgate/test.sv:37: $finish called at 1196 (1ps)
+Hint: Output 'out' has no mismatches.
+Hint: Total mismatched samples is 0 out of 239 samples
+
+Simulation finished at 1196 ps
+Mismatches: 0 in 239 samples
+"
+Prob006_vectorr,True,True,0,218,0,0,"/home/mukunoki/bot/pocketnika2/work/topk/results/verilog_eval_formal_qwen35_9b_awq4_20260509_100trials_k10_w8_mt16384_s12345/eval_work/reference/Prob006_vectorr/test.sv:43: $finish called at 1090 (1ps)
+Hint: Output 'out' has no mismatches.
+Hint: Total mismatched samples is 0 out of 218 samples
+
+Simulation finished at 1090 ps
+Mismatches: 0 in 218 samples
+"
+Prob007_wire,True,True,0,120,0,0,"/home/mukunoki/bot/pocketnika2/work/topk/results/verilog_eval_formal_qwen35_9b_awq4_20260509_100trials_k10_w8_mt16384_s12345/eval_work/reference/Prob007_wire/test.sv:36: $finish called at 601 (1ps)
+Hint: Output 'out' has no mismatches.
+Hint: Total mismatched samples is 0 out of 120 samples
+
+Simulation finished at 601 ps
+Mismatches: 0 in 120 samples
+"
+Prob008_m2014_q4h,True,True,0,100,0,0,"/home/mukunoki/bot/pocketnika2/work/topk/results/verilog_eval_formal_qwen35_9b_awq4_20260509_100trials_k10_w8_mt16384_s12345/eval_work/reference/Prob008_m2014_q4h/test.sv:16: $finish called at 501 (1ps)
+Hint: Output 'out' has no mismatches.
+Hint: Total mismatched samples is 0 out of 100 samples
+
+Simulation finished at 501 ps
+Mismatches: 0 in 100 samples
+"
+Prob009_popcount3,True,True,0,220,0,0,"/home/mukunoki/bot/pocketnika2/work/topk/results/verilog_eval_formal_qwen35_9b_awq4_20260509_100trials_k10_w8_mt16384_s12345/eval_work/reference/Prob009_popcount3/test.sv:36: $finish called at 1100 (1ps)
+Hint: Output 'out' has no mismatches.
+Hint: Total mismatched samples is 0 out of 220 samples
+
+Simulation finished at 1100 ps
+Mismatches: 0 in 220 samples
+"
+Prob010_mt2015_q4a,True,True,0,202,0,0,"/home/mukunoki/bot/pocketnika2/work/topk/results/verilog_eval_formal_qwen35_9b_awq4_20260509_100trials_k10_w8_mt16384_s12345/eval_work/reference/Prob010_mt2015_q4a/test.sv:17: $finish called at 1011 (1ps)
+Hint: Output 'z' has no mismatches.
+Hint: Total mismatched samples is 0 out of 202 samples
+
+Simulation finished at 1011 ps
+Mismatches: 0 in 202 samples
+"
+Prob011_norgate,True,True,0,219,0,0,"/home/mukunoki/bot/pocketnika2/work/topk/results/verilog_eval_formal_qwen35_9b_awq4_20260509_100trials_k10_w8_mt16384_s12345/eval_work/reference/Prob011_norgate/test.sv:38: $finish called at 1096 (1ps)
+Hint: Output 'out' has no mismatches.
+Hint: Total mismatched samples is 0 out of 219 samples
+
+Simulation finished at 1096 ps
+Mismatches: 0 in 219 samples
+"
+Prob012_xnorgate,True,True,0,219,0,0,"/home/mukunoki/bot/pocketnika2/work/topk/results/verilog_eval_formal_qwen35_9b_awq4_20260509_100trials_k10_w8_mt16384_s12345/eval_work/reference/Prob012_xnorgate/test.sv:38: $finish called at 1096 (1ps)
+Hint: Output 'out' has no mismatches.
+Hint: Total mismatched samples is 0 out of 219 samples
+
+Simulation finished at 1096 ps
+Mismatches: 0 in 219 samples
+"
+Prob013_m2014_q4e,True,True,0,100,0,0,"/home/mukunoki/bot/pocketnika2/work/topk/results/verilog_eval_formal_qwen35_9b_awq4_20260509_100trials_k10_w8_mt16384_s12345/eval_work/reference/Prob013_m2014_q4e/test.sv:16: $finish called at 501 (1ps)
+Hint: Output 'out' has no mismatches.
+Hint: Total mismatched samples is 0 out of 100 samples
+
+Simulation finished at 501 ps
+Mismatches: 0 in 100 samples
+"
+Prob014_andgate,True,True,0,219,0,0,"/home/mukunoki/bot/pocketnika2/work/topk/results/verilog_eval_formal_qwen35_9b_awq4_20260509_100trials_k10_w8_mt16384_s12345/eval_work/reference/Prob014_andgate/test.sv:38: $finish called at 1096 (1ps)
+Hint: Output 'out' has no mismatches.
+Hint: Total mismatched samples is 0 out of 219 samples
+
+Simulation finished at 1096 ps
+Mismatches: 0 in 219 samples
+"
+Prob015_vector1,True,True,0,218,0,0,"/home/mukunoki/bot/pocketnika2/work/topk/results/verilog_eval_formal_qwen35_9b_awq4_20260509_100trials_k10_w8_mt16384_s12345/eval_work/reference/Prob015_vector1/test.sv:35: $finish called at 1090 (1ps)
+Hint: Output 'out_hi' has no mismatches.
+Hint: Output 'out_lo' has no mismatches.
+Hint: Total mismatched samples is 0 out of 218 samples
+
+Simulation finished at 1090 ps
+Mismatches: 0 in 218 samples
+"
+Prob016_m2014_q4j,True,True,0,100,0,0,"/home/mukunoki/bot/pocketnika2/work/topk/results/verilog_eval_formal_qwen35_9b_awq4_20260509_100trials_k10_w8_mt16384_s12345/eval_work/reference/Prob016_m2014_q4j/test.sv:16: $finish called at 501 (1ps)
+Hint: Output 'sum' has no mismatches.
+Hint: Total mismatched samples is 0 out of 100 samples
+
+Simulation finished at 501 ps
+Mismatches: 0 in 100 samples
+"
+Prob017_mux2to1v,True,True,0,114,0,0,"/home/mukunoki/bot/pocketnika2/work/topk/results/verilog_eval_formal_qwen35_9b_awq4_20260509_100trials_k10_w8_mt16384_s12345/eval_work/reference/Prob017_mux2to1v/test.sv:39: $finish called at 570 (1ps)
+Hint: Output 'out' has no mismatches.
+Hint: Total mismatched samples is 0 out of 114 samples
+
+Simulation finished at 570 ps
+Mismatches: 0 in 114 samples
+"
+Prob018_mux256to1,True,True,0,2000,0,0,"/home/mukunoki/bot/pocketnika2/work/topk/results/verilog_eval_formal_qwen35_9b_awq4_20260509_100trials_k10_w8_mt16384_s12345/eval_work/reference/Prob018_mux256to1/test.sv:20: $finish called at 10000 (1ps)
+Hint: Output 'out' has no mismatches.
+Hint: Total mismatched samples is 0 out of 2000 samples
+
+Simulation finished at 10000 ps
+Mismatches: 0 in 2000 samples
+"
+Prob019_m2014_q4f,True,True,0,100,0,0,"/home/mukunoki/bot/pocketnika2/work/topk/results/verilog_eval_formal_qwen35_9b_awq4_20260509_100trials_k10_w8_mt16384_s12345/eval_work/reference/Prob019_m2014_q4f/test.sv:16: $finish called at 501 (1ps)
+Hint: Output 'out' has no mismatches.
+Hint: Total mismatched samples is 0 out of 100 samples
+
+Simulation finished at 501 ps
+Mismatches: 0 in 100 samples
+"
+Prob020_mt2015_eq2,True,True,0,2000,0,0,"/home/mukunoki/bot/pocketnika2/work/topk/results/verilog_eval_formal_qwen35_9b_awq4_20260509_100trials_k10_w8_mt16384_s12345/eval_work/reference/Prob020_mt2015_eq2/test.sv:20: $finish called at 10001 (1ps)
+Hint: Output 'z' has no mismatches.
+Hint: Total mismatched samples is 0 out of 2000 samples
+
+Simulation finished at 10001 ps
+Mismatches: 0 in 2000 samples
+"
+Prob021_mux256to1v,True,True,0,2000,0,0,"/home/mukunoki/bot/pocketnika2/work/topk/results/verilog_eval_formal_qwen35_9b_awq4_20260509_100trials_k10_w8_mt16384_s12345/eval_work/reference/Prob021_mux256to1v/test.sv:20: $finish called at 10000 (1ps)
+Hint: Output 'out' has no mismatches.
+Hint: Total mismatched samples is 0 out of 2000 samples
+
+Simulation finished at 10000 ps
+Mismatches: 0 in 2000 samples
+"
+Prob022_mux2to1,True,True,0,122,0,0,"/home/mukunoki/bot/pocketnika2/work/topk/results/verilog_eval_formal_qwen35_9b_awq4_20260509_100trials_k10_w8_mt16384_s12345/eval_work/reference/Prob022_mux2to1/test.sv:43: $finish called at 610 (1ps)
+Hint: Output 'out' has no mismatches.
+Hint: Total mismatched samples is 0 out of 122 samples
+
+Simulation finished at 610 ps
+Mismatches: 0 in 122 samples
+"
+Prob023_vector100r,True,True,0,200,0,0,"/home/mukunoki/bot/pocketnika2/work/topk/results/verilog_eval_formal_qwen35_9b_awq4_20260509_100trials_k10_w8_mt16384_s12345/eval_work/reference/Prob023_vector100r/test.sv:16: $finish called at 1000 (1ps)
+Hint: Output 'out' has no mismatches.
+Hint: Total mismatched samples is 0 out of 200 samples
+
+Simulation finished at 1000 ps
+Mismatches: 0 in 200 samples
+"
+Prob024_hadd,True,True,0,200,0,0,"/home/mukunoki/bot/pocketnika2/work/topk/results/verilog_eval_formal_qwen35_9b_awq4_20260509_100trials_k10_w8_mt16384_s12345/eval_work/reference/Prob024_hadd/test.sv:16: $finish called at 1000 (1ps)
+Hint: Output 'sum' has no mismatches.
+Hint: Output 'cout' has no mismatches.
+Hint: Total mismatched samples is 0 out of 200 samples
+
+Simulation finished at 1000 ps
+Mismatches: 0 in 200 samples
+"
+Prob025_reduction,True,True,0,100,0,0,"/home/mukunoki/bot/pocketnika2/work/topk/results/verilog_eval_formal_qwen35_9b_awq4_20260509_100trials_k10_w8_mt16384_s12345/eval_work/reference/Prob025_reduction/test.sv:14: $finish called at 500 (1ps)
+Hint: Output 'parity' has no mismatches.
+Hint: Total mismatched samples is 0 out of 100 samples
+
+Simulation finished at 500 ps
+Mismatches: 0 in 100 samples
+"
+Prob026_alwaysblock1,True,True,0,219,0,0,"/home/mukunoki/bot/pocketnika2/work/topk/results/verilog_eval_formal_qwen35_9b_awq4_20260509_100trials_k10_w8_mt16384_s12345/eval_work/reference/Prob026_alwaysblock1/test.sv:38: $finish called at 1096 (1ps)
+Hint: Output 'out_assign' has no mismatches.
+Hint: Output 'out_alwaysblock' has no mismatches.
+Hint: Total mismatched samples is 0 out of 219 samples
+
+Simulation finished at 1096 ps
+Mismatches: 0 in 219 samples
+"
+Prob027_fadd,True,True,0,214,0,0,"/home/mukunoki/bot/pocketnika2/work/topk/results/verilog_eval_formal_qwen35_9b_awq4_20260509_100trials_k10_w8_mt16384_s12345/eval_work/reference/Prob027_fadd/test.sv:40: $finish called at 1070 (1ps)
+Hint: Output 'cout' has no mismatches.
+Hint: Output 'sum' has no mismatches.
+Hint: Total mismatched samples is 0 out of 214 samples
+
+Simulation finished at 1070 ps
+Mismatches: 0 in 214 samples
+"
+Prob028_m2014_q4a,True,True,0,100,0,0,"/home/mukunoki/bot/pocketnika2/work/topk/results/verilog_eval_formal_qwen35_9b_awq4_20260509_100trials_k10_w8_mt16384_s12345/eval_work/reference/Prob028_m2014_q4a/test.sv:16: $finish called at 501 (1ps)
+Hint: Output 'q' has no mismatches.
+Hint: Total mismatched samples is 0 out of 100 samples
+
+Simulation finished at 501 ps
+Mismatches: 0 in 100 samples
+"
+Prob029_m2014_q4g,True,True,0,100,0,0,"/home/mukunoki/bot/pocketnika2/work/topk/results/verilog_eval_formal_qwen35_9b_awq4_20260509_100trials_k10_w8_mt16384_s12345/eval_work/reference/Prob029_m2014_q4g/test.sv:16: $finish called at 501 (1ps)
+Hint: Output 'out' has no mismatches.
+Hint: Total mismatched samples is 0 out of 100 samples
+
+Simulation finished at 501 ps
+Mismatches: 0 in 100 samples
+"
+Prob030_popcount255,True,True,0,215,0,0,"/home/mukunoki/bot/pocketnika2/work/topk/results/verilog_eval_formal_qwen35_9b_awq4_20260509_100trials_k10_w8_mt16384_s12345/eval_work/reference/Prob030_popcount255/test.sv:49: $finish called at 1076 (1ps)
+Hint: Output 'out' has no mismatches.
+Hint: Total mismatched samples is 0 out of 215 samples
+
+Simulation finished at 1076 ps
+Mismatches: 0 in 215 samples
+"
+Prob031_dff,True,True,0,121,0,0,"/home/mukunoki/bot/pocketnika2/work/topk/results/verilog_eval_formal_qwen35_9b_awq4_20260509_100trials_k10_w8_mt16384_s12345/eval_work/reference/Prob031_dff/test.sv:37: $finish called at 605 (1ps)
+Hint: Output 'q' has no mismatches.
+Hint: Total mismatched samples is 0 out of 121 samples
+
+Simulation finished at 605 ps
+Mismatches: 0 in 121 samples
+"
+Prob032_vector0,True,True,0,21,0,0,"/home/mukunoki/bot/pocketnika2/work/topk/results/verilog_eval_formal_qwen35_9b_awq4_20260509_100trials_k10_w8_mt16384_s12345/eval_work/reference/Prob032_vector0/test.sv:36: $finish called at 107 (1ps)
+Hint: Output 'outv' has no mismatches.
+Hint: Output 'o2' has no mismatches.
+Hint: Output 'o1' has no mismatches.
+Hint: Output 'o0' has no mismatches.
+Hint: Total mismatched samples is 0 out of 21 samples
+
+Simulation finished at 107 ps
+Mismatches: 0 in 21 samples
+"
+Prob033_ece241_2014_q1c,True,True,0,116,0,0,"/home/mukunoki/bot/pocketnika2/work/topk/results/verilog_eval_formal_qwen35_9b_awq4_20260509_100trials_k10_w8_mt16384_s12345/eval_work/reference/Prob033_ece241_2014_q1c/test.sv:41: $finish called at 580 (1ps)
+Hint: Output 's' has no mismatches.
+Hint: Output 'overflow' has no mismatches.
+Hint: Total mismatched samples is 0 out of 116 samples
+
+Simulation finished at 580 ps
+Mismatches: 0 in 116 samples
+"
+Prob034_dff8,True,True,0,41,0,0,"/home/mukunoki/bot/pocketnika2/work/topk/results/verilog_eval_formal_qwen35_9b_awq4_20260509_100trials_k10_w8_mt16384_s12345/eval_work/reference/Prob034_dff8/test.sv:36: $finish called at 206 (1ps)
+Hint: Output 'q' has no mismatches.
+Hint: Total mismatched samples is 0 out of 41 samples
+
+Simulation finished at 206 ps
+Mismatches: 0 in 41 samples
+"
+Prob035_count1to10,True,True,0,439,0,0,"/home/mukunoki/bot/pocketnika2/work/topk/results/verilog_eval_formal_qwen35_9b_awq4_20260509_100trials_k10_w8_mt16384_s12345/eval_work/reference/Prob035_count1to10/test.sv:62: $finish called at 2196 (1ps)
+Hint: Output 'q' has no mismatches.
+Hint: Total mismatched samples is 0 out of 439 samples
+
+Simulation finished at 2196 ps
+Mismatches: 0 in 439 samples
+"
+Prob036_ringer,True,True,0,19,0,0,"/home/mukunoki/bot/pocketnika2/work/topk/results/verilog_eval_formal_qwen35_9b_awq4_20260509_100trials_k10_w8_mt16384_s12345/eval_work/reference/Prob036_ringer/test.sv:35: $finish called at 97 (1ps)
+Hint: Output 'ringer' has no mismatches.
+Hint: Output 'motor' has no mismatches.
+Hint: Total mismatched samples is 0 out of 19 samples
+
+Simulation finished at 97 ps
+Mismatches: 0 in 19 samples
+"
+Prob037_review2015_count1k,True,True,0,8027,0,0,"/home/mukunoki/bot/pocketnika2/work/topk/results/verilog_eval_formal_qwen35_9b_awq4_20260509_100trials_k10_w8_mt16384_s12345/eval_work/reference/Prob037_review2015_count1k/test.sv:71: $finish called at 40136 (1ps)
+Hint: Output 'q' has no mismatches.
+Hint: Total mismatched samples is 0 out of 8027 samples
+
+Simulation finished at 40136 ps
+Mismatches: 0 in 8027 samples
+"
+Prob038_count15,True,True,0,421,0,0,"/home/mukunoki/bot/pocketnika2/work/topk/results/verilog_eval_formal_qwen35_9b_awq4_20260509_100trials_k10_w8_mt16384_s12345/eval_work/reference/Prob038_count15/test.sv:64: $finish called at 2106 (1ps)
+Hint: Output 'q' has no mismatches.
+Hint: Total mismatched samples is 0 out of 421 samples
+
+Simulation finished at 2106 ps
+Mismatches: 0 in 421 samples
+"
+Prob039_always_if,True,True,0,114,0,0,"/home/mukunoki/bot/pocketnika2/work/topk/results/verilog_eval_formal_qwen35_9b_awq4_20260509_100trials_k10_w8_mt16384_s12345/eval_work/reference/Prob039_always_if/test.sv:45: $finish called at 570 (1ps)
+Hint: Output 'out_assign' has no mismatches.
+Hint: Output 'out_always' has no mismatches.
+Hint: Total mismatched samples is 0 out of 114 samples
+
+Simulation finished at 570 ps
+Mismatches: 0 in 114 samples
+"
+Prob040_count10,True,True,0,439,0,0,"/home/mukunoki/bot/pocketnika2/work/topk/results/verilog_eval_formal_qwen35_9b_awq4_20260509_100trials_k10_w8_mt16384_s12345/eval_work/reference/Prob040_count10/test.sv:62: $finish called at 2196 (1ps)
+Hint: Output 'q' has no mismatches.
+Hint: Total mismatched samples is 0 out of 439 samples
+
+Simulation finished at 2196 ps
+Mismatches: 0 in 439 samples
+"
+Prob041_dff8r,True,True,0,432,0,0,"/home/mukunoki/bot/pocketnika2/work/topk/results/verilog_eval_formal_qwen35_9b_awq4_20260509_100trials_k10_w8_mt16384_s12345/eval_work/reference/Prob041_dff8r/test.sv:65: $finish called at 2161 (1ps)
+Hint: Output 'q' has no mismatches.
+Hint: Total mismatched samples is 0 out of 432 samples
+
+Simulation finished at 2161 ps
+Mismatches: 0 in 432 samples
+"
+Prob042_vector4,True,True,0,100,0,0,"/home/mukunoki/bot/pocketnika2/work/topk/results/verilog_eval_formal_qwen35_9b_awq4_20260509_100trials_k10_w8_mt16384_s12345/eval_work/reference/Prob042_vector4/test.sv:14: $finish called at 500 (1ps)
+Hint: Output 'out' has no mismatches.
+Hint: Total mismatched samples is 0 out of 100 samples
+
+Simulation finished at 500 ps
+Mismatches: 0 in 100 samples
+"
+Prob043_vector5,True,True,0,100,0,0,"/home/mukunoki/bot/pocketnika2/work/topk/results/verilog_eval_formal_qwen35_9b_awq4_20260509_100trials_k10_w8_mt16384_s12345/eval_work/reference/Prob043_vector5/test.sv:14: $finish called at 500 (1ps)
+Hint: Output 'out' has no mismatches.
+Hint: Total mismatched samples is 0 out of 100 samples
+
+Simulation finished at 500 ps
+Mismatches: 0 in 100 samples
+"
+Prob044_vectorgates,True,True,0,261,0,0,"/home/mukunoki/bot/pocketnika2/work/topk/results/verilog_eval_formal_qwen35_9b_awq4_20260509_100trials_k10_w8_mt16384_s12345/eval_work/reference/Prob044_vectorgates/test.sv:39: $finish called at 1306 (1ps)
+Hint: Output 'out_or_bitwise' has no mismatches.
+Hint: Output 'out_or_logical' has no mismatches.
+Hint: Output 'out_not' has no mismatches.
+Hint: Total mismatched samples is 0 out of 261 samples
+
+Simulation finished at 1306 ps
+Mismatches: 0 in 261 samples
+"
+Prob045_edgedetect2,True,True,0,228,0,0,"/home/mukunoki/bot/pocketnika2/work/topk/results/verilog_eval_formal_qwen35_9b_awq4_20260509_100trials_k10_w8_mt16384_s12345/eval_work/reference/Prob045_edgedetect2/test.sv:45: $finish called at 1140 (1ps)
+Hint: Output 'anyedge' has no mismatches.
+Hint: Total mismatched samples is 0 out of 228 samples
+
+Simulation finished at 1140 ps
+Mismatches: 0 in 228 samples
+"
+Prob046_dff8p,True,True,0,436,0,0,"/home/mukunoki/bot/pocketnika2/work/topk/results/verilog_eval_formal_qwen35_9b_awq4_20260509_100trials_k10_w8_mt16384_s12345/eval_work/reference/Prob046_dff8p/test.sv:68: $finish called at 2181 (1ps)
+Hint: Output 'q' has no mismatches.
+Hint: Total mismatched samples is 0 out of 436 samples
+
+Simulation finished at 2181 ps
+Mismatches: 0 in 436 samples
+"
+Prob047_dff8ar,True,True,0,436,0,0,"/home/mukunoki/bot/pocketnika2/work/topk/results/verilog_eval_formal_qwen35_9b_awq4_20260509_100trials_k10_w8_mt16384_s12345/eval_work/reference/Prob047_dff8ar/test.sv:73: $finish called at 2181 (1ps)
+Hint: Output 'q' has no mismatches.
+Hint: Total mismatched samples is 0 out of 436 samples
+
+Simulation finished at 2181 ps
+Mismatches: 0 in 436 samples
+"
+Prob048_m2014_q4c,True,True,0,100,0,0,"/home/mukunoki/bot/pocketnika2/work/topk/results/verilog_eval_formal_qwen35_9b_awq4_20260509_100trials_k10_w8_mt16384_s12345/eval_work/reference/Prob048_m2014_q4c/test.sv:16: $finish called at 501 (1ps)
+Hint: Output 'q' has no mismatches.
+Hint: Total mismatched samples is 0 out of 100 samples
+
+Simulation finished at 501 ps
+Mismatches: 0 in 100 samples
+"
+Prob049_m2014_q4b,True,True,0,100,0,0,"/home/mukunoki/bot/pocketnika2/work/topk/results/verilog_eval_formal_qwen35_9b_awq4_20260509_100trials_k10_w8_mt16384_s12345/eval_work/reference/Prob049_m2014_q4b/test.sv:16: $finish called at 501 (1ps)
+Hint: Output 'q' has no mismatches.
+Hint: Total mismatched samples is 0 out of 100 samples
+
+Simulation finished at 501 ps
+Mismatches: 0 in 100 samples
+"
+Prob050_kmap1,True,True,0,219,0,0,"/home/mukunoki/bot/pocketnika2/work/topk/results/verilog_eval_formal_qwen35_9b_awq4_20260509_100trials_k10_w8_mt16384_s12345/eval_work/reference/Prob050_kmap1/test.sv:38: $finish called at 1096 (1ps)
+Hint: Output 'out' has no mismatches.
+Hint: Total mismatched samples is 0 out of 219 samples
+
+Simulation finished at 1096 ps
+Mismatches: 0 in 219 samples
+"
+Prob051_gates4,True,True,0,234,0,0,"/home/mukunoki/bot/pocketnika2/work/topk/results/verilog_eval_formal_qwen35_9b_awq4_20260509_100trials_k10_w8_mt16384_s12345/eval_work/reference/Prob051_gates4/test.sv:35: $finish called at 1170 (1ps)
+Hint: Output 'out_and' has no mismatches.
+Hint: Output 'out_or' has no mismatches.
+Hint: Output 'out_xor' has no mismatches.
+Hint: Total mismatched samples is 0 out of 234 samples
+
+Simulation finished at 1170 ps
+Mismatches: 0 in 234 samples
+"
+Prob052_gates100,True,True,0,433,0,0,"/home/mukunoki/bot/pocketnika2/work/topk/results/verilog_eval_formal_qwen35_9b_awq4_20260509_100trials_k10_w8_mt16384_s12345/eval_work/reference/Prob052_gates100/test.sv:63: $finish called at 2166 (1ps)
+Hint: Output 'out_and' has no mismatches.
+Hint: Output 'out_or' has no mismatches.
+Hint: Output 'out_xor' has no mismatches.
+Hint: Total mismatched samples is 0 out of 433 samples
+
+Simulation finished at 2166 ps
+Mismatches: 0 in 433 samples
+"
+Prob053_m2014_q4d,True,True,0,100,0,0,"/home/mukunoki/bot/pocketnika2/work/topk/results/verilog_eval_formal_qwen35_9b_awq4_20260509_100trials_k10_w8_mt16384_s12345/eval_work/reference/Prob053_m2014_q4d/test.sv:16: $finish called at 501 (1ps)
+Hint: Output 'out' has no mismatches.
+Hint: Total mismatched samples is 0 out of 100 samples
+
+Simulation finished at 501 ps
+Mismatches: 0 in 100 samples
+"
+Prob054_edgedetect,True,True,0,227,0,0,"/home/mukunoki/bot/pocketnika2/work/topk/results/verilog_eval_formal_qwen35_9b_awq4_20260509_100trials_k10_w8_mt16384_s12345/eval_work/reference/Prob054_edgedetect/test.sv:45: $finish called at 1135 (1ps)
+Hint: Output 'pedge' has no mismatches.
+Hint: Total mismatched samples is 0 out of 227 samples
+
+Simulation finished at 1135 ps
+Mismatches: 0 in 227 samples
+"
+Prob055_conditional,True,True,0,112,0,0,"/home/mukunoki/bot/pocketnika2/work/topk/results/verilog_eval_formal_qwen35_9b_awq4_20260509_100trials_k10_w8_mt16384_s12345/eval_work/reference/Prob055_conditional/test.sv:38: $finish called at 560 (1ps)
+Hint: Output 'min' has no mismatches.
+Hint: Total mismatched samples is 0 out of 112 samples
+
+Simulation finished at 560 ps
+Mismatches: 0 in 112 samples
+"
+Prob056_ece241_2013_q7,True,True,0,422,0,0,"/home/mukunoki/bot/pocketnika2/work/topk/results/verilog_eval_formal_qwen35_9b_awq4_20260509_100trials_k10_w8_mt16384_s12345/eval_work/reference/Prob056_ece241_2013_q7/test.sv:43: $finish called at 2110 (1ps)
+Hint: Output 'Q' has no mismatches.
+Hint: Total mismatched samples is 0 out of 422 samples
+
+Simulation finished at 2110 ps
+Mismatches: 0 in 422 samples
+"
+Prob057_kmap2,True,True,0,232,0,0,"/home/mukunoki/bot/pocketnika2/work/topk/results/verilog_eval_formal_qwen35_9b_awq4_20260509_100trials_k10_w8_mt16384_s12345/eval_work/reference/Prob057_kmap2/test.sv:38: $finish called at 1161 (1ps)
+Hint: Output 'out' has no mismatches.
+Hint: Total mismatched samples is 0 out of 232 samples
+
+Simulation finished at 1161 ps
+Mismatches: 0 in 232 samples
+"
+Prob058_alwaysblock2,True,True,0,219,0,0,"/home/mukunoki/bot/pocketnika2/work/topk/results/verilog_eval_formal_qwen35_9b_awq4_20260509_100trials_k10_w8_mt16384_s12345/eval_work/reference/Prob058_alwaysblock2/test.sv:38: $finish called at 1096 (1ps)
+Hint: Output 'out_assign' has no mismatches.
+Hint: Output 'out_always_comb' has no mismatches.
+Hint: Output 'out_always_ff' has no mismatches.
+Hint: Total mismatched samples is 0 out of 219 samples
+
+Simulation finished at 1096 ps
+Mismatches: 0 in 219 samples
+"
+Prob059_wire4,True,True,0,218,0,0,"/home/mukunoki/bot/pocketnika2/work/topk/results/verilog_eval_formal_qwen35_9b_awq4_20260509_100trials_k10_w8_mt16384_s12345/eval_work/reference/Prob059_wire4/test.sv:35: $finish called at 1090 (1ps)
+Hint: Output 'w' has no mismatches.
+Hint: Output 'x' has no mismatches.
+Hint: Output 'y' has no mismatches.
+Hint: Output 'z' has no mismatches.
+Hint: Total mismatched samples is 0 out of 218 samples
+
+Simulation finished at 1090 ps
+Mismatches: 0 in 218 samples
+"
+Prob060_m2014_q4k,True,True,0,299,0,0,"/home/mukunoki/bot/pocketnika2/work/topk/results/verilog_eval_formal_qwen35_9b_awq4_20260509_100trials_k10_w8_mt16384_s12345/eval_work/reference/Prob060_m2014_q4k/test.sv:21: $finish called at 1496 (1ps)
+Hint: Output 'out' has no mismatches.
+Hint: Total mismatched samples is 0 out of 299 samples
+
+Simulation finished at 1496 ps
+Mismatches: 0 in 299 samples
+"
+Prob061_2014_q4a,True,True,0,200,0,0,"/home/mukunoki/bot/pocketnika2/work/topk/results/verilog_eval_formal_qwen35_9b_awq4_20260509_100trials_k10_w8_mt16384_s12345/eval_work/reference/Prob061_2014_q4a/test.sv:16: $finish called at 1001 (1ps)
+Hint: Output 'Q' has no mismatches.
+Hint: Total mismatched samples is 0 out of 200 samples
+
+Simulation finished at 1001 ps
+Mismatches: 0 in 200 samples
+"
+Prob062_bugs_mux2,True,True,0,114,0,0,"/home/mukunoki/bot/pocketnika2/work/topk/results/verilog_eval_formal_qwen35_9b_awq4_20260509_100trials_k10_w8_mt16384_s12345/eval_work/reference/Prob062_bugs_mux2/test.sv:47: $finish called at 570 (1ps)
+Hint: Output 'out' has no mismatches.
+Hint: Total mismatched samples is 0 out of 114 samples
+
+Simulation finished at 570 ps
+Mismatches: 0 in 114 samples
+"
+Prob063_review2015_shiftcount,True,True,0,2071,0,0,"/home/mukunoki/bot/pocketnika2/work/topk/results/verilog_eval_formal_qwen35_9b_awq4_20260509_100trials_k10_w8_mt16384_s12345/eval_work/reference/Prob063_review2015_shiftcount/test.sv:63: $finish called at 10356 (1ps)
+Hint: Output 'q' has no mismatches.
+Hint: Total mismatched samples is 0 out of 2071 samples
+
+Simulation finished at 10356 ps
+Mismatches: 0 in 2071 samples
+"
+Prob064_vector3,True,True,0,126,0,0,"/home/mukunoki/bot/pocketnika2/work/topk/results/verilog_eval_formal_qwen35_9b_awq4_20260509_100trials_k10_w8_mt16384_s12345/eval_work/reference/Prob064_vector3/test.sv:44: $finish called at 630 (1ps)
+Hint: Output 'w' has no mismatches.
+Hint: Output 'x' has no mismatches.
+Hint: Output 'y' has no mismatches.
+Hint: Output 'z' has no mismatches.
+Hint: Total mismatched samples is 0 out of 126 samples
+
+Simulation finished at 630 ps
+Mismatches: 0 in 126 samples
+"
+Prob065_7420,True,True,0,239,0,0,"/home/mukunoki/bot/pocketnika2/work/topk/results/verilog_eval_formal_qwen35_9b_awq4_20260509_100trials_k10_w8_mt16384_s12345/eval_work/reference/Prob065_7420/test.sv:44: $finish called at 1196 (1ps)
+Hint: Output 'p1y' has no mismatches.
+Hint: Output 'p2y' has no mismatches.
+Hint: Total mismatched samples is 0 out of 239 samples
+
+Simulation finished at 1196 ps
+Mismatches: 0 in 239 samples
+"
+Prob066_edgecapture,True,True,0,266,0,0,"/home/mukunoki/bot/pocketnika2/work/topk/results/verilog_eval_formal_qwen35_9b_awq4_20260509_100trials_k10_w8_mt16384_s12345/eval_work/reference/Prob066_edgecapture/test.sv:86: $finish called at 1330 (1ps)
+Hint: Output 'out' has no mismatches.
+Hint: Total mismatched samples is 0 out of 266 samples
+
+Simulation finished at 1330 ps
+Mismatches: 0 in 266 samples
+"
+Prob067_countslow,True,True,0,499,0,0,"/home/mukunoki/bot/pocketnika2/work/topk/results/verilog_eval_formal_qwen35_9b_awq4_20260509_100trials_k10_w8_mt16384_s12345/eval_work/reference/Prob067_countslow/test.sv:89: $finish called at 2496 (1ps)
+Hint: Output 'q' has no mismatches.
+Hint: Total mismatched samples is 0 out of 499 samples
+
+Simulation finished at 2496 ps
+Mismatches: 0 in 499 samples
+"
+Prob068_countbcd,True,True,0,39805,0,0,"/home/mukunoki/bot/pocketnika2/work/topk/results/verilog_eval_formal_qwen35_9b_awq4_20260509_100trials_k10_w8_mt16384_s12345/eval_work/reference/Prob068_countbcd/test.sv:68: $finish called at 199026 (1ps)
+Hint: Output 'ena' has no mismatches.
+Hint: Output 'q' has no mismatches.
+Hint: Total mismatched samples is 0 out of 39805 samples
+
+Simulation finished at 199026 ps
+Mismatches: 0 in 39805 samples
+"
+Prob069_truthtable1,True,True,0,58,0,0,"/home/mukunoki/bot/pocketnika2/work/topk/results/verilog_eval_formal_qwen35_9b_awq4_20260509_100trials_k10_w8_mt16384_s12345/eval_work/reference/Prob069_truthtable1/test.sv:34: $finish called at 290 (1ps)
+Hint: Output 'f' has no mismatches.
+Hint: Total mismatched samples is 0 out of 58 samples
+
+Simulation finished at 290 ps
+Mismatches: 0 in 58 samples
+"
+Prob070_ece241_2013_q2,True,True,0,107,0,0,"/home/mukunoki/bot/pocketnika2/work/topk/results/verilog_eval_formal_qwen35_9b_awq4_20260509_100trials_k10_w8_mt16384_s12345/eval_work/reference/Prob070_ece241_2013_q2/test.sv:63: $finish called at 535 (1ps)
+Hint: Output 'out_sop' has no mismatches.
+Hint: Output 'out_pos' has no mismatches.
+Hint: Total mismatched samples is 0 out of 107 samples
+
+Simulation finished at 535 ps
+Mismatches: 0 in 107 samples
+"
+Prob071_always_casez,True,True,0,346,0,0,"/home/mukunoki/bot/pocketnika2/work/topk/results/verilog_eval_formal_qwen35_9b_awq4_20260509_100trials_k10_w8_mt16384_s12345/eval_work/reference/Prob071_always_casez/test.sv:41: $finish called at 1730 (1ps)
+Hint: Output 'pos' has no mismatches.
+Hint: Total mismatched samples is 0 out of 346 samples
+
+Simulation finished at 1730 ps
+Mismatches: 0 in 346 samples
+"
+Prob072_thermostat,True,True,0,248,0,0,"/home/mukunoki/bot/pocketnika2/work/topk/results/verilog_eval_formal_qwen35_9b_awq4_20260509_100trials_k10_w8_mt16384_s12345/eval_work/reference/Prob072_thermostat/test.sv:63: $finish called at 1241 (1ps)
+Hint: Output 'heater' has no mismatches.
+Hint: Output 'aircon' has no mismatches.
+Hint: Output 'fan' has no mismatches.
+Hint: Total mismatched samples is 0 out of 248 samples
+
+Simulation finished at 1241 ps
+Mismatches: 0 in 248 samples
+"
+Prob073_dff16e,True,True,0,443,0,0,"/home/mukunoki/bot/pocketnika2/work/topk/results/verilog_eval_formal_qwen35_9b_awq4_20260509_100trials_k10_w8_mt16384_s12345/eval_work/reference/Prob073_dff16e/test.sv:80: $finish called at 2216 (1ps)
+Hint: Output 'q' has no mismatches.
+Hint: Total mismatched samples is 0 out of 443 samples
+
+Simulation finished at 2216 ps
+Mismatches: 0 in 443 samples
+"
+Prob074_ece241_2014_q4,True,True,0,118,0,0,"/home/mukunoki/bot/pocketnika2/work/topk/results/verilog_eval_formal_qwen35_9b_awq4_20260509_100trials_k10_w8_mt16384_s12345/eval_work/reference/Prob074_ece241_2014_q4/test.sv:42: $finish called at 590 (1ps)
+Hint: Output 'z' has no mismatches.
+Hint: Total mismatched samples is 0 out of 118 samples
+
+Simulation finished at 590 ps
+Mismatches: 0 in 118 samples
+"
+Prob075_counter_2bc,True,True,0,1051,0,0,"/home/mukunoki/bot/pocketnika2/work/topk/results/verilog_eval_formal_qwen35_9b_awq4_20260509_100trials_k10_w8_mt16384_s12345/eval_work/reference/Prob075_counter_2bc/test.sv:96: $finish called at 5256 (1ps)
+Hint: Output 'state' has no mismatches.
+Hint: Total mismatched samples is 0 out of 1051 samples
+
+Simulation finished at 5256 ps
+Mismatches: 0 in 1051 samples
+"
+Prob076_always_case,True,True,0,118,0,0,"/home/mukunoki/bot/pocketnika2/work/topk/results/verilog_eval_formal_qwen35_9b_awq4_20260509_100trials_k10_w8_mt16384_s12345/eval_work/reference/Prob076_always_case/test.sv:49: $finish called at 590 (1ps)
+Hint: Output 'out' has no mismatches.
+Hint: Total mismatched samples is 0 out of 118 samples
+
+Simulation finished at 590 ps
+Mismatches: 0 in 118 samples
+"
+Prob077_wire_decl,True,True,0,122,0,0,"/home/mukunoki/bot/pocketnika2/work/topk/results/verilog_eval_formal_qwen35_9b_awq4_20260509_100trials_k10_w8_mt16384_s12345/eval_work/reference/Prob077_wire_decl/test.sv:39: $finish called at 611 (1ps)
+Hint: Output 'out' has no mismatches.
+Hint: Output 'out_n' has no mismatches.
+Hint: Total mismatched samples is 0 out of 122 samples
+
+Simulation finished at 611 ps
+Mismatches: 0 in 122 samples
+"
+Prob078_dualedge,True,True,0,224,0,0,"/home/mukunoki/bot/pocketnika2/work/topk/results/verilog_eval_formal_qwen35_9b_awq4_20260509_100trials_k10_w8_mt16384_s12345/eval_work/reference/Prob078_dualedge/test.sv:36: $finish called at 1121 (1ps)
+Hint: Output 'q' has no mismatches.
+Hint: Total mismatched samples is 0 out of 224 samples
+
+Simulation finished at 1121 ps
+Mismatches: 0 in 224 samples
+"
+Prob079_fsm3onehot,True,True,0,200,0,0,"/home/mukunoki/bot/pocketnika2/work/topk/results/verilog_eval_formal_qwen35_9b_awq4_20260509_100trials_k10_w8_mt16384_s12345/eval_work/reference/Prob079_fsm3onehot/test.sv:20: $finish called at 1001 (1ps)
+Hint: Output 'next_state' has no mismatches.
+Hint: Output 'out' has no mismatches.
+Hint: Total mismatched samples is 0 out of 200 samples
+
+Simulation finished at 1001 ps
+Mismatches: 0 in 200 samples
+"
+Prob080_timer,True,True,0,7127,0,0,"/home/mukunoki/bot/pocketnika2/work/topk/results/verilog_eval_formal_qwen35_9b_awq4_20260509_100trials_k10_w8_mt16384_s12345/eval_work/reference/Prob080_timer/test.sv:55: $finish called at 35636 (1ps)
+Hint: Output 'tc' has no mismatches.
+Hint: Total mismatched samples is 0 out of 7127 samples
+
+Simulation finished at 35636 ps
+Mismatches: 0 in 7127 samples
+"
+Prob081_7458,True,True,0,439,0,0,"/home/mukunoki/bot/pocketnika2/work/topk/results/verilog_eval_formal_qwen35_9b_awq4_20260509_100trials_k10_w8_mt16384_s12345/eval_work/reference/Prob081_7458/test.sv:44: $finish called at 2196 (1ps)
+Hint: Output 'p1y' has no mismatches.
+Hint: Output 'p2y' has no mismatches.
+Hint: Total mismatched samples is 0 out of 439 samples
+
+Simulation finished at 2196 ps
+Mismatches: 0 in 439 samples
+"
+Prob082_lfsr32,True,True,0,400411,0,0,"/home/mukunoki/bot/pocketnika2/work/topk/results/verilog_eval_formal_qwen35_9b_awq4_20260509_100trials_k10_w8_mt16384_s12345/eval_work/reference/Prob082_lfsr32/test.sv:20: $finish called at 2002056 (1ps)
+Hint: Output 'q' has no mismatches.
+Hint: Total mismatched samples is 0 out of 400411 samples
+
+Simulation finished at 2002056 ps
+Mismatches: 0 in 400411 samples
+"
+Prob083_mt2015_q4b,True,True,0,110,0,0,"/home/mukunoki/bot/pocketnika2/work/topk/results/verilog_eval_formal_qwen35_9b_awq4_20260509_100trials_k10_w8_mt16384_s12345/eval_work/reference/Prob083_mt2015_q4b/test.sv:38: $finish called at 551 (1ps)
+Hint: Output 'z' has no mismatches.
+Hint: Total mismatched samples is 0 out of 110 samples
+
+Simulation finished at 551 ps
+Mismatches: 0 in 110 samples
+"
+Prob084_ece241_2013_q12,True,True,0,530,0,0,"/home/mukunoki/bot/pocketnika2/work/topk/results/verilog_eval_formal_qwen35_9b_awq4_20260509_100trials_k10_w8_mt16384_s12345/eval_work/reference/Prob084_ece241_2013_q12/test.sv:55: $finish called at 2650 (1ps)
+Hint: Output 'Z' has no mismatches.
+Hint: Total mismatched samples is 0 out of 530 samples
+
+Simulation finished at 2650 ps
+Mismatches: 0 in 530 samples
+"
+Prob085_shift4,True,True,0,427,0,0,"/home/mukunoki/bot/pocketnika2/work/topk/results/verilog_eval_formal_qwen35_9b_awq4_20260509_100trials_k10_w8_mt16384_s12345/eval_work/reference/Prob085_shift4/test.sv:76: $finish called at 2136 (1ps)
+Hint: Output 'q' has no mismatches.
+Hint: Total mismatched samples is 0 out of 427 samples
+
+Simulation finished at 2136 ps
+Mismatches: 0 in 427 samples
+"
+Prob086_lfsr5,True,True,0,4443,0,0,"/home/mukunoki/bot/pocketnika2/work/topk/results/verilog_eval_formal_qwen35_9b_awq4_20260509_100trials_k10_w8_mt16384_s12345/eval_work/reference/Prob086_lfsr5/test.sv:65: $finish called at 22216 (1ps)
+Hint: Output 'q' has no mismatches.
+Hint: Total mismatched samples is 0 out of 4443 samples
+
+Simulation finished at 22216 ps
+Mismatches: 0 in 4443 samples
+"
+Prob087_gates,True,True,0,210,0,0,"/home/mukunoki/bot/pocketnika2/work/topk/results/verilog_eval_formal_qwen35_9b_awq4_20260509_100trials_k10_w8_mt16384_s12345/eval_work/reference/Prob087_gates/test.sv:38: $finish called at 1050 (1ps)
+Hint: Output 'out_and' has no mismatches.
+Hint: Output 'out_or' has no mismatches.
+Hint: Output 'out_xor' has no mismatches.
+Hint: Output 'out_nand' has no mismatches.
+Hint: Output 'out_nor' has no mismatches.
+Hint: Output 'out_xnor' has no mismatches.
+Hint: Output 'out_anotb' has no mismatches.
+Hint: Total mismatched samples is 0 out of 210 samples
+
+Simulation finished at 1050 ps
+Mismatches: 0 in 210 samples
+"
+Prob088_ece241_2014_q5b,True,True,0,436,0,0,"/home/mukunoki/bot/pocketnika2/work/topk/results/verilog_eval_formal_qwen35_9b_awq4_20260509_100trials_k10_w8_mt16384_s12345/eval_work/reference/Prob088_ece241_2014_q5b/test.sv:73: $finish called at 2180 (1ps)
+Hint: Output 'z' has no mismatches.
+Hint: Total mismatched samples is 0 out of 436 samples
+
+Simulation finished at 2180 ps
+Mismatches: 0 in 436 samples
+"
+Prob089_ece241_2014_q5a,True,True,0,436,0,0,"/home/mukunoki/bot/pocketnika2/work/topk/results/verilog_eval_formal_qwen35_9b_awq4_20260509_100trials_k10_w8_mt16384_s12345/eval_work/reference/Prob089_ece241_2014_q5a/test.sv:73: $finish called at 2180 (1ps)
+Hint: Output 'z' has no mismatches.
+Hint: Total mismatched samples is 0 out of 436 samples
+
+Simulation finished at 2180 ps
+Mismatches: 0 in 436 samples
+"
+Prob090_circuit1,True,True,0,120,0,0,"/home/mukunoki/bot/pocketnika2/work/topk/results/verilog_eval_formal_qwen35_9b_awq4_20260509_100trials_k10_w8_mt16384_s12345/eval_work/reference/Prob090_circuit1/test.sv:36: $finish called at 600 (1ps)
+Hint: Output 'q' has no mismatches.
+Hint: Total mismatched samples is 0 out of 120 samples
+
+Simulation finished at 600 ps
+Mismatches: 0 in 120 samples
+"
+Prob091_2012_q2b,True,True,0,600,0,0,"/home/mukunoki/bot/pocketnika2/work/topk/results/verilog_eval_formal_qwen35_9b_awq4_20260509_100trials_k10_w8_mt16384_s12345/eval_work/reference/Prob091_2012_q2b/test.sv:45: $finish called at 3001 (1ps)
+Hint: Output 'Y1' has no mismatches.
+Hint: Output 'Y3' has no mismatches.
+Hint: Total mismatched samples is 0 out of 600 samples
+
+Simulation finished at 3001 ps
+Mismatches: 0 in 600 samples
+"
+Prob092_gatesv100,True,True,0,201,0,0,"/home/mukunoki/bot/pocketnika2/work/topk/results/verilog_eval_formal_qwen35_9b_awq4_20260509_100trials_k10_w8_mt16384_s12345/eval_work/reference/Prob092_gatesv100/test.sv:18: $finish called at 1006 (1ps)
+Hint: Output 'out_both' has no mismatches.
+Hint: Output 'out_any' has no mismatches.
+Hint: Output 'out_different' has no mismatches.
+Hint: Total mismatched samples is 0 out of 201 samples
+
+Simulation finished at 1006 ps
+Mismatches: 0 in 201 samples
+"
+Prob093_ece241_2014_q3,True,True,0,60,0,0,"/home/mukunoki/bot/pocketnika2/work/topk/results/verilog_eval_formal_qwen35_9b_awq4_20260509_100trials_k10_w8_mt16384_s12345/eval_work/reference/Prob093_ece241_2014_q3/test.sv:38: $finish called at 300 (1ps)
+Hint: Output 'mux_in' has no mismatches.
+Hint: Total mismatched samples is 0 out of 60 samples
+
+Simulation finished at 300 ps
+Mismatches: 0 in 60 samples
+"
+Prob094_gatesv,True,True,0,213,0,0,"/home/mukunoki/bot/pocketnika2/work/topk/results/verilog_eval_formal_qwen35_9b_awq4_20260509_100trials_k10_w8_mt16384_s12345/eval_work/reference/Prob094_gatesv/test.sv:44: $finish called at 1066 (1ps)
+Hint: Output 'out_both' has no mismatches.
+Hint: Output 'out_any' has no mismatches.
+Hint: Output 'out_different' has no mismatches.
+Hint: Total mismatched samples is 0 out of 213 samples
+
+Simulation finished at 1066 ps
+Mismatches: 0 in 213 samples
+"
+Prob095_review2015_fsmshift,True,True,0,200,0,0,"/home/mukunoki/bot/pocketnika2/work/topk/results/verilog_eval_formal_qwen35_9b_awq4_20260509_100trials_k10_w8_mt16384_s12345/eval_work/reference/Prob095_review2015_fsmshift/test.sv:17: $finish called at 1001 (1ps)
+Hint: Output 'shift_ena' has no mismatches.
+Hint: Total mismatched samples is 0 out of 200 samples
+
+Simulation finished at 1001 ps
+Mismatches: 0 in 200 samples
+"
+Prob096_review2015_fsmseq,True,True,0,643,0,0,"/home/mukunoki/bot/pocketnika2/work/topk/results/verilog_eval_formal_qwen35_9b_awq4_20260509_100trials_k10_w8_mt16384_s12345/eval_work/reference/Prob096_review2015_fsmseq/test.sv:74: $finish called at 3216 (1ps)
+Hint: Output 'start_shifting' has no mismatches.
+Hint: Total mismatched samples is 0 out of 643 samples
+
+Simulation finished at 3216 ps
+Mismatches: 0 in 643 samples
+"
+Prob097_mux9to1v,True,True,0,220,0,0,"/home/mukunoki/bot/pocketnika2/work/topk/results/verilog_eval_formal_qwen35_9b_awq4_20260509_100trials_k10_w8_mt16384_s12345/eval_work/reference/Prob097_mux9to1v/test.sv:45: $finish called at 1100 (1ps)
+Hint: Output 'out' has no mismatches.
+Hint: Total mismatched samples is 0 out of 220 samples
+
+Simulation finished at 1100 ps
+Mismatches: 0 in 220 samples
+"
+Prob098_circuit7,True,True,0,123,0,0,"/home/mukunoki/bot/pocketnika2/work/topk/results/verilog_eval_formal_qwen35_9b_awq4_20260509_100trials_k10_w8_mt16384_s12345/eval_work/reference/Prob098_circuit7/test.sv:36: $finish called at 615 (1ps)
+Hint: Output 'q' has no mismatches.
+Hint: Total mismatched samples is 0 out of 123 samples
+
+Simulation finished at 615 ps
+Mismatches: 0 in 123 samples
+"
+Prob099_m2014_q6c,True,True,0,200,0,0,"/home/mukunoki/bot/pocketnika2/work/topk/results/verilog_eval_formal_qwen35_9b_awq4_20260509_100trials_k10_w8_mt16384_s12345/eval_work/reference/Prob099_m2014_q6c/test.sv:21: $finish called at 1001 (1ps)
+Hint: Output 'Y2' has no mismatches.
+Hint: Output 'Y4' has no mismatches.
+Hint: Total mismatched samples is 0 out of 200 samples
+
+Simulation finished at 1001 ps
+Mismatches: 0 in 200 samples
+"
+Prob100_fsm3comb,True,True,0,100,0,0,"/home/mukunoki/bot/pocketnika2/work/topk/results/verilog_eval_formal_qwen35_9b_awq4_20260509_100trials_k10_w8_mt16384_s12345/eval_work/reference/Prob100_fsm3comb/test.sv:18: $finish called at 501 (1ps)
+Hint: Output 'next_state' has no mismatches.
+Hint: Output 'out' has no mismatches.
+Hint: Total mismatched samples is 0 out of 100 samples
+
+Simulation finished at 501 ps
+Mismatches: 0 in 100 samples
+"
+Prob101_circuit4,True,True,0,121,0,0,"/home/mukunoki/bot/pocketnika2/work/topk/results/verilog_eval_formal_qwen35_9b_awq4_20260509_100trials_k10_w8_mt16384_s12345/eval_work/reference/Prob101_circuit4/test.sv:36: $finish called at 605 (1ps)
+Hint: Output 'q' has no mismatches.
+Hint: Total mismatched samples is 0 out of 121 samples
+
+Simulation finished at 605 ps
+Mismatches: 0 in 121 samples
+"
+Prob102_circuit3,True,True,0,121,0,0,"/home/mukunoki/bot/pocketnika2/work/topk/results/verilog_eval_formal_qwen35_9b_awq4_20260509_100trials_k10_w8_mt16384_s12345/eval_work/reference/Prob102_circuit3/test.sv:36: $finish called at 605 (1ps)
+Hint: Output 'q' has no mismatches.
+Hint: Total mismatched samples is 0 out of 121 samples
+
+Simulation finished at 605 ps
+Mismatches: 0 in 121 samples
+"
+Prob103_circuit2,True,True,0,121,0,0,"/home/mukunoki/bot/pocketnika2/work/topk/results/verilog_eval_formal_qwen35_9b_awq4_20260509_100trials_k10_w8_mt16384_s12345/eval_work/reference/Prob103_circuit2/test.sv:36: $finish called at 605 (1ps)
+Hint: Output 'q' has no mismatches.
+Hint: Total mismatched samples is 0 out of 121 samples
+
+Simulation finished at 605 ps
+Mismatches: 0 in 121 samples
+"
+Prob104_mt2015_muxdff,True,True,0,199,0,0,"/home/mukunoki/bot/pocketnika2/work/topk/results/verilog_eval_formal_qwen35_9b_awq4_20260509_100trials_k10_w8_mt16384_s12345/eval_work/reference/Prob104_mt2015_muxdff/test.sv:21: $finish called at 996 (1ps)
+Hint: Output 'Q' has no mismatches.
+Hint: Total mismatched samples is 0 out of 199 samples
+
+Simulation finished at 996 ps
+Mismatches: 0 in 199 samples
+"
+Prob105_rotate100,True,True,0,4005,0,0,"/home/mukunoki/bot/pocketnika2/work/topk/results/verilog_eval_formal_qwen35_9b_awq4_20260509_100trials_k10_w8_mt16384_s12345/eval_work/reference/Prob105_rotate100/test.sv:25: $finish called at 20026 (1ps)
+Hint: Output 'q' has no mismatches.
+Hint: Total mismatched samples is 0 out of 4005 samples
+
+Simulation finished at 20026 ps
+Mismatches: 0 in 4005 samples
+"
+Prob106_always_nolatches,True,True,0,30020,0,0,"/home/mukunoki/bot/pocketnika2/work/topk/results/verilog_eval_formal_qwen35_9b_awq4_20260509_100trials_k10_w8_mt16384_s12345/eval_work/reference/Prob106_always_nolatches/test.sv:43: $finish called at 150100 (1ps)
+Hint: Output 'left' has no mismatches.
+Hint: Output 'down' has no mismatches.
+Hint: Output 'right' has no mismatches.
+Hint: Output 'up' has no mismatches.
+Hint: Total mismatched samples is 0 out of 30020 samples
+
+Simulation finished at 150100 ps
+Mismatches: 0 in 30020 samples
+"
+Prob107_fsm1s,True,True,0,230,0,0,"/home/mukunoki/bot/pocketnika2/work/topk/results/verilog_eval_formal_qwen35_9b_awq4_20260509_100trials_k10_w8_mt16384_s12345/eval_work/reference/Prob107_fsm1s/test.sv:70: $finish called at 1151 (1ps)
+Hint: Output 'out' has no mismatches.
+Hint: Total mismatched samples is 0 out of 230 samples
+
+Simulation finished at 1151 ps
+Mismatches: 0 in 230 samples
+"
+Prob108_rule90,True,True,0,7121,0,0,"/home/mukunoki/bot/pocketnika2/work/topk/results/verilog_eval_formal_qwen35_9b_awq4_20260509_100trials_k10_w8_mt16384_s12345/eval_work/reference/Prob108_rule90/test.sv:75: $finish called at 35606 (1ps)
+Hint: Output 'q' has no mismatches.
+Hint: Total mismatched samples is 0 out of 7121 samples
+
+Simulation finished at 35606 ps
+Mismatches: 0 in 7121 samples
+"
+Prob109_fsm1,True,True,0,228,0,0,"/home/mukunoki/bot/pocketnika2/work/topk/results/verilog_eval_formal_qwen35_9b_awq4_20260509_100trials_k10_w8_mt16384_s12345/eval_work/reference/Prob109_fsm1/test.sv:71: $finish called at 1141 (1ps)
+Hint: Output 'out' has no mismatches.
+Hint: Total mismatched samples is 0 out of 228 samples
+
+Simulation finished at 1141 ps
+Mismatches: 0 in 228 samples
+"
+Prob110_fsm2,True,True,0,241,0,0,"/home/mukunoki/bot/pocketnika2/work/topk/results/verilog_eval_formal_qwen35_9b_awq4_20260509_100trials_k10_w8_mt16384_s12345/eval_work/reference/Prob110_fsm2/test.sv:74: $finish called at 1206 (1ps)
+Hint: Output 'out' has no mismatches.
+Hint: Total mismatched samples is 0 out of 241 samples
+
+Simulation finished at 1206 ps
+Mismatches: 0 in 241 samples
+"
+Prob111_fsm2s,True,True,0,241,0,0,"/home/mukunoki/bot/pocketnika2/work/topk/results/verilog_eval_formal_qwen35_9b_awq4_20260509_100trials_k10_w8_mt16384_s12345/eval_work/reference/Prob111_fsm2s/test.sv:72: $finish called at 1206 (1ps)
+Hint: Output 'out' has no mismatches.
+Hint: Total mismatched samples is 0 out of 241 samples
+
+Simulation finished at 1206 ps
+Mismatches: 0 in 241 samples
+"
+Prob112_always_case2,True,True,0,94,0,0,"/home/mukunoki/bot/pocketnika2/work/topk/results/verilog_eval_formal_qwen35_9b_awq4_20260509_100trials_k10_w8_mt16384_s12345/eval_work/reference/Prob112_always_case2/test.sv:38: $finish called at 470 (1ps)
+Hint: Output 'pos' has no mismatches.
+Hint: Total mismatched samples is 0 out of 94 samples
+
+Simulation finished at 470 ps
+Mismatches: 0 in 94 samples
+"
+Prob113_2012_q1g,True,True,0,100,0,0,"/home/mukunoki/bot/pocketnika2/work/topk/results/verilog_eval_formal_qwen35_9b_awq4_20260509_100trials_k10_w8_mt16384_s12345/eval_work/reference/Prob113_2012_q1g/test.sv:16: $finish called at 501 (1ps)
+Hint: Output 'f' has no mismatches.
+Hint: Total mismatched samples is 0 out of 100 samples
+
+Simulation finished at 501 ps
+Mismatches: 0 in 100 samples
+"
+Prob114_bugs_case,True,True,0,1041,0,0,"/home/mukunoki/bot/pocketnika2/work/topk/results/verilog_eval_formal_qwen35_9b_awq4_20260509_100trials_k10_w8_mt16384_s12345/eval_work/reference/Prob114_bugs_case/test.sv:58: $finish called at 5205 (1ps)
+Hint: Output 'out' has no mismatches.
+Hint: Output 'valid' has no mismatches.
+Hint: Total mismatched samples is 0 out of 1041 samples
+
+Simulation finished at 5205 ps
+Mismatches: 0 in 1041 samples
+"
+Prob115_shift18,True,True,0,4041,0,0,"/home/mukunoki/bot/pocketnika2/work/topk/results/verilog_eval_formal_qwen35_9b_awq4_20260509_100trials_k10_w8_mt16384_s12345/eval_work/reference/Prob115_shift18/test.sv:75: $finish called at 20206 (1ps)
+Hint: Output 'q' has no mismatches.
+Hint: Total mismatched samples is 0 out of 4041 samples
+
+Simulation finished at 20206 ps
+Mismatches: 0 in 4041 samples
+"
+Prob116_m2014_q3,True,True,0,100,0,0,"/home/mukunoki/bot/pocketnika2/work/topk/results/verilog_eval_formal_qwen35_9b_awq4_20260509_100trials_k10_w8_mt16384_s12345/eval_work/reference/Prob116_m2014_q3/test.sv:16: $finish called at 501 (1ps)
+Hint: Output 'f' has no mismatches.
+Hint: Total mismatched samples is 0 out of 100 samples
+
+Simulation finished at 501 ps
+Mismatches: 0 in 100 samples
+"
+Prob117_circuit9,True,True,0,245,0,0,"/home/mukunoki/bot/pocketnika2/work/topk/results/verilog_eval_formal_qwen35_9b_awq4_20260509_100trials_k10_w8_mt16384_s12345/eval_work/reference/Prob117_circuit9/test.sv:42: $finish called at 1225 (1ps)
+Hint: Output 'q' has no mismatches.
+Hint: Total mismatched samples is 0 out of 245 samples
+
+Simulation finished at 1225 ps
+Mismatches: 0 in 245 samples
+"
+Prob118_history_shift,True,True,0,2055,0,0,"/home/mukunoki/bot/pocketnika2/work/topk/results/verilog_eval_formal_qwen35_9b_awq4_20260509_100trials_k10_w8_mt16384_s12345/eval_work/reference/Prob118_history_shift/test.sv:104: $finish called at 10276 (1ps)
+Hint: Output 'predict_history' has no mismatches.
+Hint: Total mismatched samples is 0 out of 2055 samples
+
+Simulation finished at 10276 ps
+Mismatches: 0 in 2055 samples
+"
+Prob119_fsm3,True,True,0,230,0,0,"/home/mukunoki/bot/pocketnika2/work/topk/results/verilog_eval_formal_qwen35_9b_awq4_20260509_100trials_k10_w8_mt16384_s12345/eval_work/reference/Prob119_fsm3/test.sv:79: $finish called at 1151 (1ps)
+Hint: Output 'out' has no mismatches.
+Hint: Total mismatched samples is 0 out of 230 samples
+
+Simulation finished at 1151 ps
+Mismatches: 0 in 230 samples
+"
+Prob120_fsm3s,True,True,0,230,0,0,"/home/mukunoki/bot/pocketnika2/work/topk/results/verilog_eval_formal_qwen35_9b_awq4_20260509_100trials_k10_w8_mt16384_s12345/eval_work/reference/Prob120_fsm3s/test.sv:77: $finish called at 1151 (1ps)
+Hint: Output 'out' has no mismatches.
+Hint: Total mismatched samples is 0 out of 230 samples
+
+Simulation finished at 1151 ps
+Mismatches: 0 in 230 samples
+"
+Prob121_2014_q3bfsm,True,True,0,1006,0,0,"/home/mukunoki/bot/pocketnika2/work/topk/results/verilog_eval_formal_qwen35_9b_awq4_20260509_100trials_k10_w8_mt16384_s12345/eval_work/reference/Prob121_2014_q3bfsm/test.sv:26: $finish called at 5031 (1ps)
+Hint: Output 'z' has no mismatches.
+Hint: Total mismatched samples is 0 out of 1006 samples
+
+Simulation finished at 5031 ps
+Mismatches: 0 in 1006 samples
+"
+Prob122_kmap4,True,True,0,232,0,0,"/home/mukunoki/bot/pocketnika2/work/topk/results/verilog_eval_formal_qwen35_9b_awq4_20260509_100trials_k10_w8_mt16384_s12345/eval_work/reference/Prob122_kmap4/test.sv:38: $finish called at 1161 (1ps)
+Hint: Output 'out' has no mismatches.
+Hint: Total mismatched samples is 0 out of 232 samples
+
+Simulation finished at 1161 ps
+Mismatches: 0 in 232 samples
+"
+Prob123_bugs_addsubz,True,True,0,118,0,0,"/home/mukunoki/bot/pocketnika2/work/topk/results/verilog_eval_formal_qwen35_9b_awq4_20260509_100trials_k10_w8_mt16384_s12345/eval_work/reference/Prob123_bugs_addsubz/test.sv:57: $finish called at 590 (1ps)
+Hint: Output 'out' has no mismatches.
+Hint: Output 'result_is_zero' has no mismatches.
+Hint: Total mismatched samples is 0 out of 118 samples
+
+Simulation finished at 590 ps
+Mismatches: 0 in 118 samples
+"
+Prob124_rule110,True,True,0,6283,0,0,"/home/mukunoki/bot/pocketnika2/work/topk/results/verilog_eval_formal_qwen35_9b_awq4_20260509_100trials_k10_w8_mt16384_s12345/eval_work/reference/Prob124_rule110/test.sv:73: $finish called at 31416 (1ps)
+Hint: Output 'q' has no mismatches.
+Hint: Total mismatched samples is 0 out of 6283 samples
+
+Simulation finished at 31416 ps
+Mismatches: 0 in 6283 samples
+"
+Prob125_kmap3,True,True,0,232,0,0,"/home/mukunoki/bot/pocketnika2/work/topk/results/verilog_eval_formal_qwen35_9b_awq4_20260509_100trials_k10_w8_mt16384_s12345/eval_work/reference/Prob125_kmap3/test.sv:38: $finish called at 1161 (1ps)
+Hint: Output 'out' has no mismatches.
+Hint: Total mismatched samples is 0 out of 232 samples
+
+Simulation finished at 1161 ps
+Mismatches: 0 in 232 samples
+"
+Prob126_circuit6,True,True,0,113,0,0,"/home/mukunoki/bot/pocketnika2/work/topk/results/verilog_eval_formal_qwen35_9b_awq4_20260509_100trials_k10_w8_mt16384_s12345/eval_work/reference/Prob126_circuit6/test.sv:35: $finish called at 565 (1ps)
+Hint: Output 'q' has no mismatches.
+Hint: Total mismatched samples is 0 out of 113 samples
+
+Simulation finished at 565 ps
+Mismatches: 0 in 113 samples
+"
+Prob127_lemmings1,True,True,0,229,0,0,"/home/mukunoki/bot/pocketnika2/work/topk/results/verilog_eval_formal_qwen35_9b_awq4_20260509_100trials_k10_w8_mt16384_s12345/eval_work/reference/Prob127_lemmings1/test.sv:73: $finish called at 1146 (1ps)
+Hint: Output 'walk_left' has no mismatches.
+Hint: Output 'walk_right' has no mismatches.
+Hint: Total mismatched samples is 0 out of 229 samples
+
+Simulation finished at 1146 ps
+Mismatches: 0 in 229 samples
+"
+Prob128_fsm_ps2,True,True,0,400,0,0,"/home/mukunoki/bot/pocketnika2/work/topk/results/verilog_eval_formal_qwen35_9b_awq4_20260509_100trials_k10_w8_mt16384_s12345/eval_work/reference/Prob128_fsm_ps2/test.sv:18: $finish called at 2001 (1ps)
+Hint: Output 'done' has no mismatches.
+Hint: Total mismatched samples is 0 out of 400 samples
+
+Simulation finished at 2001 ps
+Mismatches: 0 in 400 samples
+"
+Prob129_ece241_2013_q8,True,True,0,440,0,0,"/home/mukunoki/bot/pocketnika2/work/topk/results/verilog_eval_formal_qwen35_9b_awq4_20260509_100trials_k10_w8_mt16384_s12345/eval_work/reference/Prob129_ece241_2013_q8/test.sv:86: $finish called at 2200 (1ps)
+Hint: Output 'z' has no mismatches.
+Hint: Total mismatched samples is 0 out of 440 samples
+
+Simulation finished at 2200 ps
+Mismatches: 0 in 440 samples
+"
+Prob130_circuit5,True,True,0,141,0,0,"/home/mukunoki/bot/pocketnika2/work/topk/results/verilog_eval_formal_qwen35_9b_awq4_20260509_100trials_k10_w8_mt16384_s12345/eval_work/reference/Prob130_circuit5/test.sv:42: $finish called at 705 (1ps)
+Hint: Output 'q' has no mismatches.
+Hint: Total mismatched samples is 0 out of 141 samples
+
+Simulation finished at 705 ps
+Mismatches: 0 in 141 samples
+"
+Prob131_mt2015_q4,True,True,0,200,0,0,"/home/mukunoki/bot/pocketnika2/work/topk/results/verilog_eval_formal_qwen35_9b_awq4_20260509_100trials_k10_w8_mt16384_s12345/eval_work/reference/Prob131_mt2015_q4/test.sv:17: $finish called at 1001 (1ps)
+Hint: Output 'z' has no mismatches.
+Hint: Total mismatched samples is 0 out of 200 samples
+
+Simulation finished at 1001 ps
+Mismatches: 0 in 200 samples
+"
+Prob132_always_if2,True,True,0,121,0,0,"/home/mukunoki/bot/pocketnika2/work/topk/results/verilog_eval_formal_qwen35_9b_awq4_20260509_100trials_k10_w8_mt16384_s12345/eval_work/reference/Prob132_always_if2/test.sv:45: $finish called at 605 (1ps)
+Hint: Output 'shut_off_computer' has no mismatches.
+Hint: Output 'keep_driving' has no mismatches.
+Hint: Total mismatched samples is 0 out of 121 samples
+
+Simulation finished at 605 ps
+Mismatches: 0 in 121 samples
+"
+Prob133_2014_q3fsm,True,True,0,1414,0,0,"/home/mukunoki/bot/pocketnika2/work/topk/results/verilog_eval_formal_qwen35_9b_awq4_20260509_100trials_k10_w8_mt16384_s12345/eval_work/reference/Prob133_2014_q3fsm/test.sv:59: $finish called at 7071 (1ps)
+Hint: Output 'z' has no mismatches.
+Hint: Total mismatched samples is 0 out of 1414 samples
+
+Simulation finished at 7071 ps
+Mismatches: 0 in 1414 samples
+"
+Prob134_2014_q3c,True,True,0,200,0,0,"/home/mukunoki/bot/pocketnika2/work/topk/results/verilog_eval_formal_qwen35_9b_awq4_20260509_100trials_k10_w8_mt16384_s12345/eval_work/reference/Prob134_2014_q3c/test.sv:18: $finish called at 1001 (1ps)
+Hint: Output 'Y0' has no mismatches.
+Hint: Output 'z' has no mismatches.
+Hint: Total mismatched samples is 0 out of 200 samples
+
+Simulation finished at 1001 ps
+Mismatches: 0 in 200 samples
+"
+Prob135_m2014_q6b,True,True,0,100,0,0,"/home/mukunoki/bot/pocketnika2/work/topk/results/verilog_eval_formal_qwen35_9b_awq4_20260509_100trials_k10_w8_mt16384_s12345/eval_work/reference/Prob135_m2014_q6b/test.sv:17: $finish called at 501 (1ps)
+Hint: Output 'Y2' has no mismatches.
+Hint: Total mismatched samples is 0 out of 100 samples
+
+Simulation finished at 501 ps
+Mismatches: 0 in 100 samples
+"
+Prob136_m2014_q6,True,True,0,200,0,0,"/home/mukunoki/bot/pocketnika2/work/topk/results/verilog_eval_formal_qwen35_9b_awq4_20260509_100trials_k10_w8_mt16384_s12345/eval_work/reference/Prob136_m2014_q6/test.sv:18: $finish called at 1001 (1ps)
+Hint: Output 'z' has no mismatches.
+Hint: Total mismatched samples is 0 out of 200 samples
+
+Simulation finished at 1001 ps
+Mismatches: 0 in 200 samples
+"
+Prob137_fsm_serial,True,True,0,905,0,0,"/home/mukunoki/bot/pocketnika2/work/topk/results/verilog_eval_formal_qwen35_9b_awq4_20260509_100trials_k10_w8_mt16384_s12345/eval_work/reference/Prob137_fsm_serial/test.sv:45: $finish called at 4526 (1ps)
+Hint: Output 'done' has no mismatches.
+Hint: Total mismatched samples is 0 out of 905 samples
+
+Simulation finished at 4526 ps
+Mismatches: 0 in 905 samples
+"
+Prob138_2012_q2fsm,True,True,0,400,0,0,"/home/mukunoki/bot/pocketnika2/work/topk/results/verilog_eval_formal_qwen35_9b_awq4_20260509_100trials_k10_w8_mt16384_s12345/eval_work/reference/Prob138_2012_q2fsm/test.sv:18: $finish called at 2001 (1ps)
+Hint: Output 'z' has no mismatches.
+Hint: Total mismatched samples is 0 out of 400 samples
+
+Simulation finished at 2001 ps
+Mismatches: 0 in 400 samples
+"
+Prob139_2013_q2bfsm,True,True,0,1002,0,0,"/home/mukunoki/bot/pocketnika2/work/topk/results/verilog_eval_formal_qwen35_9b_awq4_20260509_100trials_k10_w8_mt16384_s12345/eval_work/reference/Prob139_2013_q2bfsm/test.sv:24: $finish called at 5011 (1ps)
+Hint: Output 'f' has no mismatches.
+Hint: Output 'g' has no mismatches.
+Hint: Total mismatched samples is 0 out of 1002 samples
+
+Simulation finished at 5011 ps
+Mismatches: 0 in 1002 samples
+"
+Prob140_fsm_hdlc,True,True,0,801,0,0,"/home/mukunoki/bot/pocketnika2/work/topk/results/verilog_eval_formal_qwen35_9b_awq4_20260509_100trials_k10_w8_mt16384_s12345/eval_work/reference/Prob140_fsm_hdlc/test.sv:20: $finish called at 4006 (1ps)
+Hint: Output 'disc' has no mismatches.
+Hint: Output 'flag' has no mismatches.
+Hint: Output 'err' has no mismatches.
+Hint: Total mismatched samples is 0 out of 801 samples
+
+Simulation finished at 4006 ps
+Mismatches: 0 in 801 samples
+"
+Prob141_count_clock,True,True,0,352413,0,0,"/home/mukunoki/bot/pocketnika2/work/topk/results/verilog_eval_formal_qwen35_9b_awq4_20260509_100trials_k10_w8_mt16384_s12345/eval_work/reference/Prob141_count_clock/test.sv:130: $finish called at 1762066 (1ps)
+Hint: Output 'pm' has no mismatches.
+Hint: Output 'hh' has no mismatches.
+Hint: Output 'mm' has no mismatches.
+Hint: Output 'ss' has no mismatches.
+Hint: Total mismatched samples is 0 out of 352413 samples
+
+Simulation finished at 1762066 ps
+Mismatches: 0 in 352413 samples
+"
+Prob142_lemmings2,True,True,0,441,0,0,"/home/mukunoki/bot/pocketnika2/work/topk/results/verilog_eval_formal_qwen35_9b_awq4_20260509_100trials_k10_w8_mt16384_s12345/eval_work/reference/Prob142_lemmings2/test.sv:80: $finish called at 2206 (1ps)
+Hint: Output 'walk_left' has no mismatches.
+Hint: Output 'walk_right' has no mismatches.
+Hint: Output 'aaah' has no mismatches.
+Hint: Total mismatched samples is 0 out of 441 samples
+
+Simulation finished at 2206 ps
+Mismatches: 0 in 441 samples
+"
+Prob143_fsm_onehot,True,True,0,224,0,0,"Hint: next_state[0] is   correct.
+Hint: next_state[1] is   correct.
+Hint: next_state[2] is   correct.
+Hint: next_state[3] is   correct.
+Hint: next_state[4] is   correct.
+Hint: next_state[5] is   correct.
+Hint: next_state[6] is   correct.
+Hint: next_state[7] is   correct.
+Hint: next_state[8] is   correct.
+Hint: next_state[9] is   correct.
+/home/mukunoki/bot/pocketnika2/work/topk/results/verilog_eval_formal_qwen35_9b_awq4_20260509_100trials_k10_w8_mt16384_s12345/eval_work/reference/Prob143_fsm_onehot/test.sv:62: $finish called at 1121 (1ps)
+Hint: Output 'next_state' has no mismatches.
+Hint: Output 'out1' has no mismatches.
+Hint: Output 'out2' has no mismatches.
+Hint: Total mismatched samples is 0 out of 224 samples
+
+Simulation finished at 1121 ps
+Mismatches: 0 in 224 samples
+"
+Prob144_conwaylife,True,True,0,5023,0,0,"/home/mukunoki/bot/pocketnika2/work/topk/results/verilog_eval_formal_qwen35_9b_awq4_20260509_100trials_k10_w8_mt16384_s12345/eval_work/reference/Prob144_conwaylife/test.sv:96: $finish called at 25116 (1ps)
+Hint: Output 'q' has no mismatches.
+Hint: Total mismatched samples is 0 out of 5023 samples
+
+Simulation finished at 25116 ps
+Mismatches: 0 in 5023 samples
+"
+Prob145_circuit8,True,True,0,240,0,0,"/home/mukunoki/bot/pocketnika2/work/topk/results/verilog_eval_formal_qwen35_9b_awq4_20260509_100trials_k10_w8_mt16384_s12345/eval_work/reference/Prob145_circuit8/test.sv:45: $finish called at 1200 (1ps)
+Hint: Output 'p' has no mismatches.
+Hint: Output 'q' has no mismatches.
+Hint: Total mismatched samples is 0 out of 240 samples
+
+Simulation finished at 1200 ps
+Mismatches: 0 in 240 samples
+"
+Prob146_fsm_serialdata,True,True,0,905,0,0,"/home/mukunoki/bot/pocketnika2/work/topk/results/verilog_eval_formal_qwen35_9b_awq4_20260509_100trials_k10_w8_mt16384_s12345/eval_work/reference/Prob146_fsm_serialdata/test.sv:45: $finish called at 4526 (1ps)
+Hint: Output 'out_byte' has no mismatches.
+Hint: Output 'done' has no mismatches.
+Hint: Total mismatched samples is 0 out of 905 samples
+
+Simulation finished at 4526 ps
+Mismatches: 0 in 905 samples
+"
+Prob147_circuit10,True,True,0,232,0,0,"/home/mukunoki/bot/pocketnika2/work/topk/results/verilog_eval_formal_qwen35_9b_awq4_20260509_100trials_k10_w8_mt16384_s12345/eval_work/reference/Prob147_circuit10/test.sv:50: $finish called at 1160 (1ps)
+Hint: Output 'q' has no mismatches.
+Hint: Output 'state' has no mismatches.
+Hint: Total mismatched samples is 0 out of 232 samples
+
+Simulation finished at 1160 ps
+Mismatches: 0 in 232 samples
+"
+Prob148_2013_q2afsm,True,True,0,1054,0,0,"/home/mukunoki/bot/pocketnika2/work/topk/results/verilog_eval_formal_qwen35_9b_awq4_20260509_100trials_k10_w8_mt16384_s12345/eval_work/reference/Prob148_2013_q2afsm/test.sv:93: $finish called at 5271 (1ps)
+Hint: Output 'g' has no mismatches.
+Hint: Total mismatched samples is 0 out of 1054 samples
+
+Simulation finished at 5271 ps
+Mismatches: 0 in 1054 samples
+"
+Prob149_ece241_2013_q4,True,True,0,2040,0,0,"/home/mukunoki/bot/pocketnika2/work/topk/results/verilog_eval_formal_qwen35_9b_awq4_20260509_100trials_k10_w8_mt16384_s12345/eval_work/reference/Prob149_ece241_2013_q4/test.sv:84: $finish called at 10200 (1ps)
+Hint: Output 'fr3' has no mismatches.
+Hint: Output 'fr2' has no mismatches.
+Hint: Output 'fr1' has no mismatches.
+Hint: Output 'dfr' has no mismatches.
+Hint: Total mismatched samples is 0 out of 2040 samples
+
+Simulation finished at 10200 ps
+Mismatches: 0 in 2040 samples
+"
+Prob150_review2015_fsmonehot,True,True,0,300,0,0,"/home/mukunoki/bot/pocketnika2/work/topk/results/verilog_eval_formal_qwen35_9b_awq4_20260509_100trials_k10_w8_mt16384_s12345/eval_work/reference/Prob150_review2015_fsmonehot/test.sv:22: $finish called at 1501 (1ps)
+Hint: Output 'B3_next' has no mismatches.
+Hint: Output 'S_next' has no mismatches.
+Hint: Output 'S1_next' has no mismatches.
+Hint: Output 'Count_next' has no mismatches.
+Hint: Output 'Wait_next' has no mismatches.
+Hint: Output 'done' has no mismatches.
+Hint: Output 'counting' has no mismatches.
+Hint: Output 'shift_ena' has no mismatches.
+Hint: Total mismatched samples is 0 out of 300 samples
+
+Simulation finished at 1501 ps
+Mismatches: 0 in 300 samples
+"
+Prob151_review2015_fsm,True,True,0,5069,0,0,"/home/mukunoki/bot/pocketnika2/work/topk/results/verilog_eval_formal_qwen35_9b_awq4_20260509_100trials_k10_w8_mt16384_s12345/eval_work/reference/Prob151_review2015_fsm/test.sv:76: $finish called at 25346 (1ps)
+Hint: Output 'shift_ena' has no mismatches.
+Hint: Output 'counting' has no mismatches.
+Hint: Output 'done' has no mismatches.
+Hint: Total mismatched samples is 0 out of 5069 samples
+
+Simulation finished at 25346 ps
+Mismatches: 0 in 5069 samples
+"
+Prob152_lemmings3,True,True,0,443,0,0,"/home/mukunoki/bot/pocketnika2/work/topk/results/verilog_eval_formal_qwen35_9b_awq4_20260509_100trials_k10_w8_mt16384_s12345/eval_work/reference/Prob152_lemmings3/test.sv:94: $finish called at 2216 (1ps)
+Hint: Output 'walk_left' has no mismatches.
+Hint: Output 'walk_right' has no mismatches.
+Hint: Output 'aaah' has no mismatches.
+Hint: Output 'digging' has no mismatches.
+Hint: Total mismatched samples is 0 out of 443 samples
+
+Simulation finished at 2216 ps
+Mismatches: 0 in 443 samples
+"
+Prob153_gshare,True,True,0,1083,0,0,"/home/mukunoki/bot/pocketnika2/work/topk/results/verilog_eval_formal_qwen35_9b_awq4_20260509_100trials_k10_w8_mt16384_s12345/eval_work/reference/Prob153_gshare/test.sv:161: $finish called at 5416 (1ps)
+Hint: Output 'predict_taken' has no mismatches.
+Hint: Output 'predict_history' has no mismatches.
+Hint: Total mismatched samples is 0 out of 1083 samples
+
+Simulation finished at 5416 ps
+Mismatches: 0 in 1083 samples
+"
+Prob154_fsm_ps2data,True,True,0,1619,0,0,"/home/mukunoki/bot/pocketnika2/work/topk/results/verilog_eval_formal_qwen35_9b_awq4_20260509_100trials_k10_w8_mt16384_s12345/eval_work/reference/Prob154_fsm_ps2data/test.sv:31: $finish called at 8096 (1ps)
+Hint: Output 'out_bytes' has no mismatches.
+Hint: Output 'done' has no mismatches.
+Hint: Total mismatched samples is 0 out of 1619 samples
+
+Simulation finished at 8096 ps
+Mismatches: 0 in 1619 samples
+"
+Prob155_lemmings4,True,True,0,1003,0,0,"/home/mukunoki/bot/pocketnika2/work/topk/results/verilog_eval_formal_qwen35_9b_awq4_20260509_100trials_k10_w8_mt16384_s12345/eval_work/reference/Prob155_lemmings4/test.sv:158: $finish called at 5016 (1ps)
+Hint: Output 'walk_left' has no mismatches.
+Hint: Output 'walk_right' has no mismatches.
+Hint: Output 'aaah' has no mismatches.
+Hint: Output 'digging' has no mismatches.
+Hint: Total mismatched samples is 0 out of 1003 samples
+
+Simulation finished at 5016 ps
+Mismatches: 0 in 1003 samples
+"
+Prob156_review2015_fancytimer,True,True,0,235447,0,0,"/home/mukunoki/bot/pocketnika2/work/topk/results/verilog_eval_formal_qwen35_9b_awq4_20260509_100trials_k10_w8_mt16384_s12345/eval_work/reference/Prob156_review2015_fancytimer/test.sv:93: $finish called at 1177236 (1ps)
+Hint: Output 'count' has no mismatches.
+Hint: Output 'counting' has no mismatches.
+Hint: Output 'done' has no mismatches.
+Hint: Total mismatched samples is 0 out of 235447 samples
+
+Simulation finished at 1177236 ps
+Mismatches: 0 in 235447 samples
+"

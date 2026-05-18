@@ -1,0 +1,18 @@
+\begin{table}[t]
+\caption{Compile-pass official-fail候補31,842件（生成token数$\le 512$の全件評価，caps無し）に対する不確実性誘導テストの全体性能．det@$B$は先頭$B$個以内のvalidation input vectorで検出できた割合，mean detection vectorsは検出できなかった候補を$B_{\max}+1=17$として平均した値．}
+\label{tab:ugt_overall_full}
+\centering
+\footnotesize
+\setlength{\tabcolsep}{4pt}
+\begin{tabular}{@{}lcccccc@{}}
+\hline
+手法 & det@1 & det@2 & det@4 & det@8 & det@16 & mean \\
+\hline
+Random & 0.496 & 0.649 & 0.762 & 0.826 & 0.845 & 4.42 \\
+Generic & 0.296 & 0.504 & 0.632 & 0.718 & 0.779 & 6.13 \\
+Category-UGT & 0.351 & 0.522 & 0.659 & 0.709 & 0.788 & 5.98 \\
+Span-UGT & 0.496 & 0.646 & 0.737 & 0.818 & 0.839 & 4.57 \\
+Hybrid-UGT & 0.524 & 0.649 & 0.761 & 0.819 & 0.841 & 4.45 \\
+\hline
+\end{tabular}
+\end{table}

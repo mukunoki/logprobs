@@ -1,0 +1,21 @@
+\begin{table}[t]
+\caption{VerilogEval 156問における効果量と特徴量のSpearman相関．効果量はMean，Tail，MinLogPのうち各問題で最も大きいGen比削減率であり，提案手法の選択規則ではなく分析用の指標である．}
+\label{tab:verilog_eval_correlation}
+\centering
+\small
+\setlength{\tabcolsep}{4pt}
+\begin{tabular}{@{}llr@{}}
+\hline
+種別 & 特徴量 & $\rho$ \\
+\hline
+生成結果 & Any-success rate & +0.775 \\
+生成結果 & 成功候補数 & +0.694 \\
+生成結果 & Gen検証回数 & -0.690 \\
+生成結果 & 長大出力率 & -0.491 \\
+コード特徴 & FSM/control flag & -0.463 \\
+コード特徴 & 参照実装LOC & -0.453 \\
+コード特徴 & posedge/negedge flag & -0.344 \\
+コード特徴 & continuous assign flag & +0.329 \\
+\hline
+\end{tabular}
+\end{table}

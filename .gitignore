@@ -1,0 +1,40 @@
+# Local quarantine and temporary execution artifacts
+trash/
+topk/vllm/tmp/
+
+# Python cache files
+**/__pycache__/
+*.py[cod]
+
+# LaTeX build artifacts
+*.aux
+*.log
+*.dvi
+*.blg
+*.bbl
+*.out
+*.synctex.gz
+
+# Large data files — large uncompressed JSONL; track only the .gz/.part-* versions
+topk/results/*/candidates.jsonl
+topk/results/*/eval_work/
+topk/results/*/logs/
+topk/results/*/run.pid
+topk/results/verilog_eval_b_subsample/prompt_logprobs.jsonl
+topk/results/verilog_eval_b_subsample/eval_full.jsonl
+topk/results/verilog_eval_b_subsample/eval.jsonl
+topk/results/verilog_eval_b_subsample/eval_v2.jsonl
+topk/results/verilog_eval_b_subsample/eval_v3.jsonl
+topk/results/verilog_eval_b_subsample/phase1_eval.jsonl
+
+# Third-party tools and benchmarks (managed externally)
+topk/hf-cache/
+topk/external/
+topk/tools/
+topk/vllm/
+topk/run/
+topk/scripts/
+
+# Derived raster figures (EPS is the source of truth)
+topk/paper/*.png
+topk/paper/*.xbb

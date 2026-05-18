@@ -1,0 +1,18 @@
+\begin{table*}[t]
+\caption{VerilogEval正式評価のコード特徴別結果．分類は公開されている問題文・問題名・参照実装の構文特徴に基づく分析用分類であり，順位付け手法はこの分類情報を用いない．成功率は各trialの10候補中に公式成功候補が1つ以上ある割合，通過数は10候補中の平均コンパイル通過候補数，打切は\texttt{max\_tokens}到達候補数である．Genは平均検証試行回数，Mean，Tail，MinLogPはGen比削減率（\%），CF最良はcompile-filter後のsimulation実行回数における最良削減率を示す．}
+\label{tab:verilog_eval_feature}
+\centering
+\small
+\setlength{\tabcolsep}{3pt}
+\begin{tabular}{@{}lrrrrrrrrr@{}}
+\hline
+コード特徴 & 問題数 & 成功率 & 通過数 & 打切 & Gen & Mean & Tail & MinLogP & CF最良 \\
+\hline
+Simple logic & 47 & 0.802 & 6.66 & 0.10 & 3.63 & +8.9\% & +8.8\% & +5.4\% & Mean +3.1\% \\
+Procedural comb. & 20 & 0.648 & 4.97 & 0.19 & 5.35 & +5.7\% & +5.6\% & +5.0\% & Mean +5.1\% \\
+Arithmetic & 8 & 0.828 & 5.05 & 0.11 & 3.81 & +14.3\% & +14.3\% & +13.6\% & Tail +0.6\% \\
+Sequential & 33 & 0.659 & 7.33 & 0.25 & 4.73 & +3.5\% & +3.4\% & +3.7\% & Mean +1.4\% \\
+FSM/control & 48 & 0.242 & 2.58 & 1.11 & 8.60 & +0.1\% & +0.0\% & +0.6\% & Mean -1.0\% \\
+\hline
+\end{tabular}
+\end{table*}

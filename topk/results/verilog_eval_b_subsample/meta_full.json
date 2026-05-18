@@ -1,0 +1,515 @@
+{
+  "candidates_jsonl": "/home/mukunoki/bot/pocketnika2/work/topk/results/verilog_eval_formal_qwen35_9b_awq4_20260509_100trials_k10_w8_mt16384_s12345/candidates.jsonl",
+  "max_tokens": 512,
+  "ratio": 1,
+  "seed": 54321,
+  "total_cpof": 31842,
+  "total_sampled": 31842,
+  "problems_with_cpof": 126,
+  "per_problem": {
+    "Prob004_vector2": {
+      "cpof_count": 85,
+      "picked": 85
+    },
+    "Prob005_notgate": {
+      "cpof_count": 1,
+      "picked": 1
+    },
+    "Prob009_popcount3": {
+      "cpof_count": 518,
+      "picked": 518
+    },
+    "Prob010_mt2015_q4a": {
+      "cpof_count": 217,
+      "picked": 217
+    },
+    "Prob011_norgate": {
+      "cpof_count": 22,
+      "picked": 22
+    },
+    "Prob016_m2014_q4j": {
+      "cpof_count": 33,
+      "picked": 33
+    },
+    "Prob018_mux256to1": {
+      "cpof_count": 1,
+      "picked": 1
+    },
+    "Prob021_mux256to1v": {
+      "cpof_count": 89,
+      "picked": 89
+    },
+    "Prob023_vector100r": {
+      "cpof_count": 64,
+      "picked": 64
+    },
+    "Prob025_reduction": {
+      "cpof_count": 2,
+      "picked": 2
+    },
+    "Prob028_m2014_q4a": {
+      "cpof_count": 14,
+      "picked": 14
+    },
+    "Prob029_m2014_q4g": {
+      "cpof_count": 143,
+      "picked": 143
+    },
+    "Prob030_popcount255": {
+      "cpof_count": 49,
+      "picked": 49
+    },
+    "Prob031_dff": {
+      "cpof_count": 4,
+      "picked": 4
+    },
+    "Prob033_ece241_2014_q1c": {
+      "cpof_count": 341,
+      "picked": 341
+    },
+    "Prob034_dff8": {
+      "cpof_count": 18,
+      "picked": 18
+    },
+    "Prob035_count1to10": {
+      "cpof_count": 302,
+      "picked": 302
+    },
+    "Prob036_ringer": {
+      "cpof_count": 22,
+      "picked": 22
+    },
+    "Prob037_review2015_count1k": {
+      "cpof_count": 162,
+      "picked": 162
+    },
+    "Prob040_count10": {
+      "cpof_count": 62,
+      "picked": 62
+    },
+    "Prob041_dff8r": {
+      "cpof_count": 199,
+      "picked": 199
+    },
+    "Prob042_vector4": {
+      "cpof_count": 9,
+      "picked": 9
+    },
+    "Prob043_vector5": {
+      "cpof_count": 193,
+      "picked": 193
+    },
+    "Prob044_vectorgates": {
+      "cpof_count": 431,
+      "picked": 431
+    },
+    "Prob045_edgedetect2": {
+      "cpof_count": 516,
+      "picked": 516
+    },
+    "Prob046_dff8p": {
+      "cpof_count": 609,
+      "picked": 609
+    },
+    "Prob047_dff8ar": {
+      "cpof_count": 2,
+      "picked": 2
+    },
+    "Prob049_m2014_q4b": {
+      "cpof_count": 4,
+      "picked": 4
+    },
+    "Prob050_kmap1": {
+      "cpof_count": 739,
+      "picked": 739
+    },
+    "Prob051_gates4": {
+      "cpof_count": 3,
+      "picked": 3
+    },
+    "Prob052_gates100": {
+      "cpof_count": 3,
+      "picked": 3
+    },
+    "Prob053_m2014_q4d": {
+      "cpof_count": 594,
+      "picked": 594
+    },
+    "Prob054_edgedetect": {
+      "cpof_count": 500,
+      "picked": 500
+    },
+    "Prob055_conditional": {
+      "cpof_count": 29,
+      "picked": 29
+    },
+    "Prob057_kmap2": {
+      "cpof_count": 625,
+      "picked": 625
+    },
+    "Prob059_wire4": {
+      "cpof_count": 2,
+      "picked": 2
+    },
+    "Prob060_m2014_q4k": {
+      "cpof_count": 326,
+      "picked": 326
+    },
+    "Prob061_2014_q4a": {
+      "cpof_count": 225,
+      "picked": 225
+    },
+    "Prob062_bugs_mux2": {
+      "cpof_count": 927,
+      "picked": 927
+    },
+    "Prob063_review2015_shiftcount": {
+      "cpof_count": 697,
+      "picked": 697
+    },
+    "Prob064_vector3": {
+      "cpof_count": 493,
+      "picked": 493
+    },
+    "Prob066_edgecapture": {
+      "cpof_count": 345,
+      "picked": 345
+    },
+    "Prob067_countslow": {
+      "cpof_count": 19,
+      "picked": 19
+    },
+    "Prob068_countbcd": {
+      "cpof_count": 138,
+      "picked": 138
+    },
+    "Prob069_truthtable1": {
+      "cpof_count": 570,
+      "picked": 570
+    },
+    "Prob070_ece241_2013_q2": {
+      "cpof_count": 614,
+      "picked": 614
+    },
+    "Prob071_always_casez": {
+      "cpof_count": 169,
+      "picked": 169
+    },
+    "Prob072_thermostat": {
+      "cpof_count": 6,
+      "picked": 6
+    },
+    "Prob073_dff16e": {
+      "cpof_count": 60,
+      "picked": 60
+    },
+    "Prob074_ece241_2014_q4": {
+      "cpof_count": 406,
+      "picked": 406
+    },
+    "Prob075_counter_2bc": {
+      "cpof_count": 250,
+      "picked": 250
+    },
+    "Prob076_always_case": {
+      "cpof_count": 132,
+      "picked": 132
+    },
+    "Prob077_wire_decl": {
+      "cpof_count": 176,
+      "picked": 176
+    },
+    "Prob078_dualedge": {
+      "cpof_count": 484,
+      "picked": 484
+    },
+    "Prob079_fsm3onehot": {
+      "cpof_count": 108,
+      "picked": 108
+    },
+    "Prob080_timer": {
+      "cpof_count": 52,
+      "picked": 52
+    },
+    "Prob082_lfsr32": {
+      "cpof_count": 155,
+      "picked": 155
+    },
+    "Prob083_mt2015_q4b": {
+      "cpof_count": 71,
+      "picked": 71
+    },
+    "Prob084_ece241_2013_q12": {
+      "cpof_count": 50,
+      "picked": 50
+    },
+    "Prob085_shift4": {
+      "cpof_count": 374,
+      "picked": 374
+    },
+    "Prob086_lfsr5": {
+      "cpof_count": 280,
+      "picked": 280
+    },
+    "Prob088_ece241_2014_q5b": {
+      "cpof_count": 99,
+      "picked": 99
+    },
+    "Prob089_ece241_2014_q5a": {
+      "cpof_count": 53,
+      "picked": 53
+    },
+    "Prob090_circuit1": {
+      "cpof_count": 47,
+      "picked": 47
+    },
+    "Prob091_2012_q2b": {
+      "cpof_count": 438,
+      "picked": 438
+    },
+    "Prob092_gatesv100": {
+      "cpof_count": 301,
+      "picked": 301
+    },
+    "Prob093_ece241_2014_q3": {
+      "cpof_count": 905,
+      "picked": 905
+    },
+    "Prob094_gatesv": {
+      "cpof_count": 136,
+      "picked": 136
+    },
+    "Prob095_review2015_fsmshift": {
+      "cpof_count": 74,
+      "picked": 74
+    },
+    "Prob096_review2015_fsmseq": {
+      "cpof_count": 315,
+      "picked": 315
+    },
+    "Prob097_mux9to1v": {
+      "cpof_count": 298,
+      "picked": 298
+    },
+    "Prob098_circuit7": {
+      "cpof_count": 498,
+      "picked": 498
+    },
+    "Prob099_m2014_q6c": {
+      "cpof_count": 406,
+      "picked": 406
+    },
+    "Prob100_fsm3comb": {
+      "cpof_count": 16,
+      "picked": 16
+    },
+    "Prob101_circuit4": {
+      "cpof_count": 795,
+      "picked": 795
+    },
+    "Prob102_circuit3": {
+      "cpof_count": 722,
+      "picked": 722
+    },
+    "Prob103_circuit2": {
+      "cpof_count": 619,
+      "picked": 619
+    },
+    "Prob104_mt2015_muxdff": {
+      "cpof_count": 503,
+      "picked": 503
+    },
+    "Prob105_rotate100": {
+      "cpof_count": 751,
+      "picked": 751
+    },
+    "Prob106_always_nolatches": {
+      "cpof_count": 319,
+      "picked": 319
+    },
+    "Prob107_fsm1s": {
+      "cpof_count": 47,
+      "picked": 47
+    },
+    "Prob108_rule90": {
+      "cpof_count": 236,
+      "picked": 236
+    },
+    "Prob109_fsm1": {
+      "cpof_count": 132,
+      "picked": 132
+    },
+    "Prob110_fsm2": {
+      "cpof_count": 4,
+      "picked": 4
+    },
+    "Prob111_fsm2s": {
+      "cpof_count": 58,
+      "picked": 58
+    },
+    "Prob112_always_case2": {
+      "cpof_count": 474,
+      "picked": 474
+    },
+    "Prob113_2012_q1g": {
+      "cpof_count": 772,
+      "picked": 772
+    },
+    "Prob114_bugs_case": {
+      "cpof_count": 36,
+      "picked": 36
+    },
+    "Prob115_shift18": {
+      "cpof_count": 734,
+      "picked": 734
+    },
+    "Prob116_m2014_q3": {
+      "cpof_count": 757,
+      "picked": 757
+    },
+    "Prob117_circuit9": {
+      "cpof_count": 836,
+      "picked": 836
+    },
+    "Prob118_history_shift": {
+      "cpof_count": 509,
+      "picked": 509
+    },
+    "Prob119_fsm3": {
+      "cpof_count": 26,
+      "picked": 26
+    },
+    "Prob120_fsm3s": {
+      "cpof_count": 86,
+      "picked": 86
+    },
+    "Prob121_2014_q3bfsm": {
+      "cpof_count": 695,
+      "picked": 695
+    },
+    "Prob122_kmap4": {
+      "cpof_count": 239,
+      "picked": 239
+    },
+    "Prob123_bugs_addsubz": {
+      "cpof_count": 220,
+      "picked": 220
+    },
+    "Prob124_rule110": {
+      "cpof_count": 130,
+      "picked": 130
+    },
+    "Prob125_kmap3": {
+      "cpof_count": 281,
+      "picked": 281
+    },
+    "Prob126_circuit6": {
+      "cpof_count": 26,
+      "picked": 26
+    },
+    "Prob127_lemmings1": {
+      "cpof_count": 215,
+      "picked": 215
+    },
+    "Prob128_fsm_ps2": {
+      "cpof_count": 131,
+      "picked": 131
+    },
+    "Prob129_ece241_2013_q8": {
+      "cpof_count": 300,
+      "picked": 300
+    },
+    "Prob130_circuit5": {
+      "cpof_count": 91,
+      "picked": 91
+    },
+    "Prob131_mt2015_q4": {
+      "cpof_count": 2,
+      "picked": 2
+    },
+    "Prob132_always_if2": {
+      "cpof_count": 459,
+      "picked": 459
+    },
+    "Prob133_2014_q3fsm": {
+      "cpof_count": 34,
+      "picked": 34
+    },
+    "Prob134_2014_q3c": {
+      "cpof_count": 688,
+      "picked": 688
+    },
+    "Prob135_m2014_q6b": {
+      "cpof_count": 27,
+      "picked": 27
+    },
+    "Prob136_m2014_q6": {
+      "cpof_count": 368,
+      "picked": 368
+    },
+    "Prob137_fsm_serial": {
+      "cpof_count": 20,
+      "picked": 20
+    },
+    "Prob138_2012_q2fsm": {
+      "cpof_count": 363,
+      "picked": 363
+    },
+    "Prob139_2013_q2bfsm": {
+      "cpof_count": 1,
+      "picked": 1
+    },
+    "Prob140_fsm_hdlc": {
+      "cpof_count": 1,
+      "picked": 1
+    },
+    "Prob141_count_clock": {
+      "cpof_count": 178,
+      "picked": 178
+    },
+    "Prob142_lemmings2": {
+      "cpof_count": 28,
+      "picked": 28
+    },
+    "Prob143_fsm_onehot": {
+      "cpof_count": 245,
+      "picked": 245
+    },
+    "Prob144_conwaylife": {
+      "cpof_count": 3,
+      "picked": 3
+    },
+    "Prob145_circuit8": {
+      "cpof_count": 815,
+      "picked": 815
+    },
+    "Prob146_fsm_serialdata": {
+      "cpof_count": 6,
+      "picked": 6
+    },
+    "Prob147_circuit10": {
+      "cpof_count": 15,
+      "picked": 15
+    },
+    "Prob148_2013_q2afsm": {
+      "cpof_count": 165,
+      "picked": 165
+    },
+    "Prob149_ece241_2013_q4": {
+      "cpof_count": 16,
+      "picked": 16
+    },
+    "Prob150_review2015_fsmonehot": {
+      "cpof_count": 305,
+      "picked": 305
+    },
+    "Prob151_review2015_fsm": {
+      "cpof_count": 23,
+      "picked": 23
+    },
+    "Prob154_fsm_ps2data": {
+      "cpof_count": 16,
+      "picked": 16
+    }
+  }
+}
